@@ -1,0 +1,105 @@
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom:1px dotted black;
+    }
+    .tooltip .tooltiptext{
+    visibility : hidden;
+    width: 200px;
+    font-size: 25px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius:6px;
+    position: absolute;
+    z-index: 1;
+    }
+    .tooltip:hover .tooltiptext{
+    visibility : visible;
+    }
+    /*.btn-group .button {
+        //background-color: #4CAF50;
+        //border: 1px solid green;
+        border-radius:4px;
+        color: white;
+        //padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        width: 85px;
+        height: 45px;
+        //cursor: pointer;
+        display: inline-block;
+        float: left;
+        //float:center;
+        cursor:not-allowed;
+        background:url('../Image/mm1.png');
+        //box-shadow: 0 9px #999;
+        }*/
+        .btn-group .button {
+            //background-color: #4CAF50;
+            //border: 1px solid green;
+            border-radius:4px;
+            color: white;
+            //padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 40px;
+            width: 150px;
+            height: 80px;
+            //cursor: pointer;
+            display: inline-block;
+            float: left;
+            //float:center;
+            cursor:not-allowed;
+            background:url('../Image/mm1.png');
+            //box-shadow: 0 9px #999;
+            }
+        .ClText{
+        //background-color: #9CBF50;
+        background-color: #FF8000;
+        color: black;
+        font-size: 50px;
+        //width: 50px;
+        padding: 0px 0px;
+        text-align:center;
+        border: 2px solid red;
+        border-radiues: 4px;
+        }
+        .ClTextExa{
+        //background-color: #9CBF50;
+        //background-color: #FF8000;
+        color: black;
+        text-align:left;
+        //font-size: 12px;
+        padding: 0px 0px;
+        border: 2px solid red;
+        border-radiues: 4px;
+        //margin: 8px 0;
+        font-size:50px;
+        }
+        .ClTable{
+        background-color: #b7e7e7;
+        font-size: 50px;
+        }
+        .textRun
+		{
+			background-color:black;
+			color:white;
+			font-size:50px;
+			border-color: black;
+			border: 0ch;
+		}
+        .textCode{
+            background-color:black;
+			color:white;
+			font-size:50px;
+			border-color: black;
+            //width: 100%;
+            //padding :12px 20px;
+            margin: 8px 0;
+            //box-sizing: border-box;
+            border: 2px solid red;
+            border-radiues: 4px;
+        }

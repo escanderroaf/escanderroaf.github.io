@@ -1,0 +1,248 @@
+<html dir=rtl>
+    <head>
+    <link rel="stylesheet" type="text/css" href="../../Style/st1.css" />
+    <title >سي بلس بلس ++C:printf,scanf</title>
+    </head>
+    
+    <body style="background-color: #e495e4;">
+    
+    <center>
+    <table class=ClTable  >
+    <tr>
+        <td><center><font color=blue><h1>تعلم سي بلس بلس</h1></font></center></td>
+    </tr>
+    <tr>
+        <td><center><img src="../../Image/C++.jpg" width=25% hieght=25%></center></td>
+    </tr>
+    <tr>
+        
+    </tr>
+    <tr>
+        <td>
+            <center>
+                <font color=black><h3>المستوى الاول الفصل الاول</h3></font>
+            </center>
+                
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <center>
+                <font color=blue><h3>الدرس السابع</h3></font>
+            </center>
+                
+        </td>
+    </tr>
+    <tr>
+        <td style="background-color:gray;">
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            <div class=btn-group>
+                                <!--<input type="button" class=button value="التالي" onclick="document.location='Test4.html'">-->
+                            </div >
+                        </td>
+                        <td>
+                            <div class=btn-group>
+                                <input type="button" class=button value="السابق" onclick="document.location='Test6.html'">
+                            </div >
+                        </td>
+                    </tr>
+                    <!--<tr>
+                        <td>
+                            <div class=btn-group>
+                                <input type="button" class=button value="نشاط" onclick="document.location='examples3/reviewTest3/review.html';">
+                            </div>
+                        </td>
+                        <td>
+                            <div class=btn-group>
+                                <input type="button" class=button value="اختبار" onclick="document.location='examples3/reviewTest3/exam.html';">
+                            </div>
+                        </td>
+                    </tr>-->
+                </table>
+            </center>
+        </td>
+    </tr>
+    <tr>
+        <td><center><font color="black"><h4>printf,scanf</h4></font></center></td>
+    </tr>
+    <tr>
+        <td>
+            <dd>
+                <li><font color=red>مفهوم printf,scanf</font></li>
+                <li><font color=red>امر الاخراج  <font dir=ltr>printf()</font></font></li>
+                <li><font color=red>امر الادخال  <font dir=ltr>scanf()</font></font></li>
+            </dd>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+            
+            <h3><li><font color=red>مفهوم printf,scanf</font></li></h3>
+            <dd>
+                امرين الادخال والاخراج في لغة 
+                <input type= text class=ClText size=1 dir=ltr value="C" readonly>
+                هي لغة برمجه قديمه جات لاجل تطوير نظام دوز .  
+                هما دالتين معرفه في مكتبة stdio.h . 
+            </dd>
+                    
+            <!--zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz-->
+            <h3><li><font color=red>امر الاخراج  <font dir=ltr>printf()</font></font></li></h3>
+            <dd>
+                امر الاخراج 
+                <div class="tooltip" >
+                    <input type= text class=ClText size=3 dir=ltr value="printf()" readonly>
+                    <br>
+                   <span class="tooltiptext" >
+                           هي اختصار للجملة 
+                           <br>
+                           print formatted
+                           <br>
+                           تعني طباعة اتنسيق
+                   </span>
+                </div>
+                يعمل نفس عمل 
+                <input type= text class=ClText size=4 dir=ltr value="cout<<" readonly> . 
+                الفرق بينهما ال
+                <input type= text class=ClText size=3 dir=ltr value="printf()" readonly>
+                القدره على التنسيق داخل النص . 
+                تستخدم لاظهر او اطباعة المخرجات على الشاشه لمعرفة النتيجه بعد المعالجه . 
+                <br>
+                <br>
+                <b><font color=red >مثال1</font></b>
+                <br>
+                <input type= text class=ClTextExa size=50 dir=ltr  value='printf("a=%d b=%f c=%c d=%s",a,b,c,d);' >
+                <br>
+                <div class=btn-group style="float:right;">
+                <input type=button class=button value="كود" onclick="document.location='examples7/Example1/Code.html';">
+                </div >
+                <br>
+                <br>
+                من مثال1 بين علامات اتنصيص الزوجيه
+                <input type= text class=ClText size=1 dir=ltr value='""' readonly>
+                النص المراد تنسيقه خارج علامات التنصيص يوجد اسماء المتغيرات المراد طباعة قيامه . 
+                <input type= text class=ClText size=1 dir=ltr value="%" readonly>
+                مواقع طباعة قيام المتغيرات . 
+                <input type= text class=ClText size=1 dir=ltr value="%d" readonly>
+                استبدل هذا الرمز بي عدد صحيح هي قيمة المتغير 
+                <input type= text class=ClText size=1 dir=ltr value="a" readonly> . 
+                ال 
+                <input type= text class=ClText size=1 dir=ltr value="%f" readonly>
+                استبدل هذا الرمز بي عدد عشري هي قيمة المتغير 
+                <input type= text class=ClText size=1 dir=ltr value="b" readonly> .
+                ال 
+                <input type= text class=ClText size=1 dir=ltr value="%c" readonly>
+                استبدل هذا الرمز بي حرف هي قيمة المتغير 
+                <input type= text class=ClText size=1 dir=ltr value="c" readonly> .
+                ال 
+                <input type= text class=ClText size=1 dir=ltr value="%s" readonly>
+                استبدل هذا الرمز بي نص هي قيمة المتغير 
+                <input type= text class=ClText size=1 dir=ltr value="d" readonly> .
+                <div class="tooltip" >
+                    ملاحظه
+                    <input type= text class=ClText size=1 dir=ltr value="%d" readonly>
+                    <br>
+                    <span class="tooltiptext" >
+                       كتابة %d او %i نفس المعنى 
+                       <br>
+                       تعني عدد صحيح
+                    </span>
+                </div>
+            </dd>
+            <!--zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz-->
+            <h3><li><font color=red>امر الاخراج  <font dir=ltr>scanf()</font></font></li></h3>
+            <dd>
+                امر الادخال
+                <div class="tooltip" >
+                    <input type= text class=ClText size=3 dir=ltr value="scanf()" readonly>
+                    <br>
+                   <span class="tooltiptext" >
+                           هي اختصار للجملة 
+                           <br>
+                           scan formatted
+                           <br>
+                           تعني طباعة اتنسيق
+                   </span>
+                </div>
+                يعمل نفس عمل 
+                <input type= text class=ClText size=4 dir=ltr value="cin>>" readonly> . 
+                الفرق بينهما ال
+                <input type= text class=ClText size=3 dir=ltr value="scanf()" readonly>
+                القدره على تخزين البيانات باي نظام 
+                اثنائي - الثماني السادس عشر . 
+                تستخدم لدخال قيمة الى المتغير اثناء تنفيذ البرنامج . 
+                <br>
+                <br>
+                <b><font color=red >مثال2</font></b>
+                <br>
+                <input type= text class=ClTextExa  dir=ltr  value='scanf("%d",&a);' >
+                <br>
+                <div class=btn-group style="float:right;">
+                <input type=button class=button value="كود" onclick="document.location='examples7/Example2/Code.html';">
+                </div >
+                <br>
+                <br>
+                من مثال2 بين علامات اتنصيص الزوجيه
+                <input type= text class=ClText size=1 dir=ltr value='" "' readonly>
+                التنسيق الذي يحدد نوع بيانات المدخال الى المتغير . 
+                <input type= text class=ClText size=1 dir=ltr value="%d" readonly>
+                يعني القيمه المدخاله من نوع عدد صحيح . 
+                <input type= text class=ClText size=1 dir=ltr value="&" readonly>
+                لاجل يؤشر المتغير الى القيمه وليس الى عنوان موقع القيمه . 
+                <input type= text class=ClText size=1 dir=ltr value="a" readonly> 
+                اسم المتغير . 
+                <div class="tooltip" >
+                    ملاحظه
+                    <input type= text class=ClText size=1 dir=ltr value="%d" readonly>
+                    <br>
+                    <span class="tooltiptext" >
+                       كتابة %d او %i نفس المعنى 
+                       <br>
+                       تعني عدد صحيح
+                    </span>
+                </div>
+            </dd>
+            <!--zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz-->
+            <!--zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz-->
+            
+        </td>
+    </tr>
+    <tr>
+        <td style="background-color:gray;">
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            <div class=btn-group>
+                                <!--<input type="button" class=button value="التالي" onclick="document.location='Test4.html'">-->
+                            </div >
+                        </td>
+                        <td>
+                            <div class=btn-group>
+                                <input type="button" class=button value="السابق" onclick="document.location='Test6.html'">
+                            </div >
+                        </td>
+                    </tr>
+                    <!--<tr>
+                        <td>
+                            <div class=btn-group>
+                                <input type="button" class=button value="نشاط" onclick="document.location='examples3/reviewTest3/review.html';">
+                            </div>
+                        </td>
+                        <td>
+                            <div class=btn-group>
+                                <input type="button" class=button value="اختبار" onclick="document.location='examples3/reviewTest3/exam.html';">
+                            </div>
+                        </td>
+                    </tr>-->
+                </table>
+            </center>
+        </td>
+    </tr>
+    </table>
+    </center>
+    </body>
+    </html>

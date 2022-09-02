@@ -1,0 +1,225 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../../../../Style/example.css" />
+    <title>درس7-مثال1-شرح تنفيذ الكود-سي بلس بلس</title>
+</head>
+<body style="background-color: #e495e4;">
+<center>
+<table class=ClTable   border=0>
+<tr>
+	<td>
+		<table class=ClTable border=1>
+		
+		<tr>
+			<td style="background-color:gray;">
+				<center><table><tr><td>
+				<div class=btn-group >
+				<input type="button" class=button value="الدرس" onclick="document.location='../../Test7.html'">
+				<input type="button" class=button value="السابق" onclick="document.location='Run.html'">
+				</div >
+				</td></tr></table></center>
+			</td>
+			<td>
+				الكود
+			</td>
+		</tr>
+		<tr>
+			<td dir="ltr"><center>
+<textarea class="textCode" rows="10" cols="41">1:#include<stdio.h>
+2:int main()
+3:{
+4: int a=90;
+5: float b=9.5;
+6: char c='H';
+7: char *d="a3b#s";
+8: printf("a=%d b=%f c=%c d=%s",a,b,c,d);
+9: return 0;
+10:}</textarea>
+			</center></td>
+			<td >
+			</td>
+		</tr>
+		<tr>
+			<td dir=ltr ><center>
+<textarea   cols="41" class=ClTextExa dir=ltr style="background-color:black;color:aliceblue" readonly>a=90 b=9.5 c=H d=a3b#s</textarea>
+			</center></td>
+			<td dir=rtl><center>
+				الشاشه
+			</center></td>
+		</tr>
+		
+		<tr>
+			
+			<td dir=rtl><center>
+				شرح شاشة التنفيذ
+			</center></td>
+			<td dir=rtl>
+			</td>
+		</tr>
+	<tr >
+		<td dir=ltr style="background-color:gray;"><center>
+			printf("a=%d b=%f c=%c d=%s",a,b,c,d);
+			</center></td>
+			<td dir=rtl>
+				سط6:
+			</center></td>
+		</tr>
+		<tr>
+			<td dir=rtl>
+				امر الاخراج لاجل عرض قيام المتغيرات
+				<input type=text class=ClText size=3 value="a,b,c,d" dir=ltr readonly> .
+				بين علامات التنصيص 
+				<input type=text class=ClText size=1 value='""' dir=ltr readonly>
+				يوجد النصوص والتنسيقات . 
+			</td>
+			<td dir=rtl><center>
+				
+			</center></td>
+		</tr>
+		<tr>
+			<td dir=ltr><center>
+				a=%d
+				</center></td>
+			<td dir=rtl><center>
+				
+			</center></td>
+		</tr>
+		<tr>
+			<td dir="rtl">
+				ال
+				<input type=text class=ClText size=1 value="a=" dir=ltr readonly> 
+				هو عباره عن نص . 
+				<input type=text class=ClText size=1 value='%d' dir="ltr"  readonly> 
+				موقع طباعة قيمة المتغير الاول المعرف من نوع عدد صحيح .
+				 المتغير الاول هو 
+				<input type=text class=ClText size=1 value='a'  readonly>
+			</td>
+			<td dir=rtl>
+				
+			</td>
+		</tr>
+		<tr>
+			<td dir="ltr" style="background-color:gray;"><center>
+				c=%c
+			</center></td>
+			<td dir=rtl>
+				
+			</td>
+		</tr>
+		<tr>
+			<td dir="rtl">
+				ال
+				<input type=text class=ClText size=1 value="c=" dir=ltr readonly> 
+				هو عباره عن نص . 
+				<input type=text class=ClText size=1 value='%c' dir="ltr" readonly> 
+				موقع طباعة قيمة المتغير الثالث المعرف من نوع حرف .
+				 المتغير الثالث هو 
+				<input type=text class=ClText size=1 value='c'  readonly>
+			</td>
+			<td dir=rtl>
+				
+			</td>
+		</tr>
+		<tr>
+			<td dir="ltr" style="background-color:gray;"><center>
+				d=%s
+			</center></td>
+			<td dir=rtl>
+				
+			</td>
+		</tr>
+		<tr>
+			<td dir="rtl">
+				ال
+				<input type=text class=ClText size=1 value="d=" dir=ltr readonly> 
+				هو عباره عن نص . 
+				<input type=text class=ClText size=1 value='%s' dir="ltr" readonly> 
+				موقع طباعة قيمة المتغير الرابع المعرف من نوع نص .
+				 المتغير الرابع هو 
+				<input type=text class=ClText size=1 value='d'  readonly>
+			</td>
+			<td dir=rtl>
+				
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:gray;"><center>
+				 a,b,c,d
+				</center></td>
+			<td dir=rtl>
+				
+			</td>
+		<tr>
+			<td dir=rtl>
+				 المتغيرات هي التي توجد خارج علامات التنصيص
+				 <input type=text class=ClText size=1 value="a" dir=ltr readonly> .
+				 المتغير الاول المعرف من نوع عدد صحيح . 
+				 <input type=text class=ClText size=1 value="b" dir=ltr readonly> .
+				 المتغير الثاني المعرف من نوع عدد عشري .
+				 <input type=text class=ClText size=1 value="c" dir=ltr readonly> .
+				 المتغير الثالث المعرف من نوع حرف .
+				 <input type=text class=ClText size=1 value="d" dir=ltr readonly> .
+				 المتغير الرابع المعرف من نوع نص .
+			</td>
+			<td dir=rtl>
+				
+			</td>
+		</tr>
+		<tr>
+			<td dir="ltr" style="background-color:gray;"><center>
+				Outputs
+			</center></td>
+			<td dir=rtl>
+				
+			</td>
+		</tr>
+		<tr>
+			
+			<td dir=rtl>
+				 طباعة النص الاول 
+				 <input type=text class=ClText size=1 value="a=" dir=ltr readonly>
+				 ثم ياليه قيمة المتغير الاول 
+				 <input type=text class=ClText size=1 value="a" dir=ltr readonly>
+				 ثم ياليه مسافه . 
+				 طباعة النص الثاني 
+				 <input type=text class=ClText size=1 value="b=" dir=ltr readonly>
+				 ثم ياليه قيمة المتغير الثاني 
+				 <input type=text class=ClText size=1 value="b" dir=ltr readonly>
+				 ثم ياليه مسافه .
+				 طباعة النص الثالث 
+				 <input type=text class=ClText size=1 value="c=" dir=ltr readonly>
+				 ثم ياليه قيمة المتغير الثالث 
+				 <input type=text class=ClText size=1 value="c" dir=ltr readonly>
+				 ثم ياليه مسافه .
+				 طباعة النص الرابع 
+				 <input type=text class=ClText size=1 value="d=" dir=ltr readonly>
+				 ثم ياليه قيمة المتغير الرابع 
+				 <input type=text class=ClText size=1 value="d" dir=ltr readonly>
+				 ثم ياليه مسافه .
+				 يكون ناتج المخرجات كما يلي 
+				 <center><input type=text class=textRun size="23"  value="a=90 b=9.5 c=H d=a3b#s" dir=ltr readonly></center>
+			</td>
+			<td dir=rtl>
+				
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:gray;">
+				<center><table><tr><td>
+				<div class=btn-group >
+				<input type="button" class=button value="الدرس" onclick="document.location='../../Test7.html'">
+				<input type="button" class=button value="السابق" onclick="document.location='Run.html'">
+				</div >
+				</td></tr></table></center>
+			</td>
+			<td>
+				
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+</center>
+</body>
+</html>

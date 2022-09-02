@@ -1,0 +1,207 @@
+<html>
+<head>
+	
+    <link rel="stylesheet" type="text/css" href="../../../../Style/example.css" />
+    <title>درس3-مثال2-تنفيذ الكود-سي بلس بلس</title>
+	<style>
+		.ClText1{
+        //background-color: #9CBF50;
+        background-color:black ;
+        color:white;
+        font-size: 40px;
+        //width: 50px;
+		width: 200px;
+        height: 80px;
+        padding: 0px 0px;
+        //text-align:center;
+        border: 2px solid red;
+        border-radiues: 4px;
+        }
+	</style>
+</head>
+<body style="background-color: #e495e4;">
+	
+<center>
+<table class=ClTable >
+<tr>
+	<td>
+		
+	</td>
+</tr>
+<tr>
+	<td style="background-color:gray">
+		<center><table><tr><td>
+		<div class=btn-group >
+			<input type="button" class=button value="الدرس" onclick="document.location='../../Test3.html'">
+			<input type="button" class=button value="السابق" onclick="document.location='Code.html'">
+		</div >
+		</td></tr></table></center>
+	</td>
+</tr>
+<tr>
+	<td style="float:inline-end">
+		<table><tr><td >
+		    <div class=btn-group>
+			    <input type="button" class=button value="تنفيذ" onclick="document.location='Run.html'">
+		    </div >
+		</td></tr></table>
+	</td>
+</tr>
+
+<tr>
+	<td style="background-color: black;color: white;" dir="ltr" id="td">
+<pre >
+1: #include< iostream> 
+2: using namespace std;
+3: int main()
+4: {
+5:   int num;
+6:   cout<< "Enter number to num :";
+7:   cin<< num;
+8:   cout<< "Value num is "<< num;
+9:   return 0;
+10:}
+</pre>
+	</td>
+</tr>
+<tr>
+	<td dir=ltr style="background-color:black;color:white" id="idRunScreen">
+		Enter number to num :
+		<input type="text"  id="idTextInput" class="ClText1" size="5" >
+		<pre id="screen"></pre>
+		<span  id="HIDDEN" style="display:none">Value num is </span>
+        
+	</td>
+</tr>
+<tr>
+	<td id="idButHidden" style="display:none;">
+		
+		<div class="tooltip" >
+			<div class=btn-group  >
+			<input type="button"   class=button  value="شرح" onclick="caption();">
+		        </div >
+			<span class="tooltiptext">
+				شرح التنفيذ
+			</span>
+		</div>
+		
+	</td>
+</tr>
+<tr>
+	<td>
+		<table class=ClTable id="idTableHidden"  style="display:none;"  >
+			<tr>
+			
+				<td dir=rtl><center>
+					شرح شاشة التنفيذ
+				</center></td>
+				<td dir=rtl>
+				</td>
+			</tr>
+		<tr >
+			<td dir=ltr style="background-color:gray;"><center>
+				cout<< "Enter number to num :";
+				</center></td>
+				<td dir=rtl style="background-color:gray;">
+					سط6:
+				</center></td>
+			</tr>
+			<tr>
+				
+				<td dir=rtl>
+					الامر 
+					<input type=text class=ClText size=4 value="cout<<" dir=ltr readonly>
+					امر الاخراج لاجل طباعة رساله نصيه تنبه المستخدم انه يجب ادخال رقم الى المتغير . 
+					النص المطلوب طباعته
+					<input type=text class=textRun size=20 value="Enter number to num :" dir=ltr readonly>
+					يظهر على الشاشه اول التنفيذ لاجل ينبه المستخدم ماذا يعمل . 
+					علامات اتنصيص الزوجيه
+					<input type=text class=ClText size=1 value='" "' dir=ltr readonly>
+					لاتظهر على الشاشه تستخدم لاجل اتعامل مع النصوص . 
+				</td>
+				<td dir=rtl><center>
+					
+				</center></td>
+			</tr>
+			<tr>
+				<td dir="ltr" style="background-color:gray;"><center>
+					cin<< num;
+				</center></td>
+				<td dir=rtl style="background-color:gray;">
+					سط7
+				</td>
+			</tr>
+			<tr>
+				<td dir=rtl>
+					 الامر
+					 <input type=text class=ClText size=2 value="cin>>" dir=ltr readonly>
+					  امر ادخال قيمه . 
+					 <input type=text class=ClText size=1 value='num' dir=ltr readonly>
+					 متغير لاجل القيمه اراجعه من امر الادخال . 
+				</td>
+				<td dir=rtl>
+					
+				</td>
+			</tr>
+			<tr>
+				<td dir=rtl >
+					 اثناء اتنفيذ كان اول ظهور النص 
+					 <input type=text class=textRun size=20 value="Enter number to num :" dir=ltr readonly>
+					 ثم تقوم بادخال رقم . ارقم الذي ادخل هو
+					 <input type="text" class=ClText size=3 id="idTextValue" dir=ltr  readonly>
+					  كان ناتج الادخال باستخدم امر الادخال . 
+					 <input type=text class=ClText size=3 value='cin>>' dir=ltr readonly>
+					 ياعمل امر الادخال على ارجع القيمه المدخله الى المتغير
+					 <input type=text class=ClText size=2 value='num' dir=ltr readonly> . 
+					 هنا تكون قيمة المتغير 
+					 <input type=text id="idTextNum" class=textRun size=8 value='num=' dir=ltr readonly> .
+				</td>
+				<td dir=rtl style="background-color:gray">
+					ملاحظه
+				</td>
+			</tr>
+			<tr>
+				<td dir="ltr" style="background-color:gray;"><center>
+					cout<< "Value num is "<< num;
+				</center></td>
+				<td dir=rtl style="background-color:gray;">
+					سط8
+				</td>
+			</tr>
+			<tr>
+				<td dir=rtl>
+					 الامر
+					 <input type=text class=ClText size=4 value="cout<<" dir=ltr readonly>
+					  امر الاخراج لاجل طباعة النص الموجود بين علامات تنصصيص
+					 <input type=text class=textRun size=10 value='Value num is' dir=ltr readonly>
+					 ثم طباعة قيمة المتغير
+					 <input type=text class=ClText size=1 value='num' dir=ltr readonly>
+					 ويكون ناتج الاخراج 
+					 <input type=text class=textRun id="idTextOut" dir=ltr value="Value num is " readonly style="background-color:black;color:white">
+
+				</td>
+				<td dir=rtl>
+					
+				</td>
+			</tr>
+			<tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td style="background-color:gray">
+		<center><table><tr><td>
+		<div class=btn-group >
+			<input type="button" class=button value="الدرس" onclick="document.location='../../Test3.html'">
+			<input type="button" class=button value="السابق" onclick="document.location='Code.html'">
+		</div >
+		</td></tr></table></center>
+	</td>
+</tr>
+
+</table>
+</center>
+<script src="../../../../script/runHidden.js">
+</script>
+</body>
+</html>

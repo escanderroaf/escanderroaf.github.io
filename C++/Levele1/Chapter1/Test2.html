@@ -1,0 +1,350 @@
+ <html dir=rtl>
+<head>
+<link rel="stylesheet" type="text/css" href="../../Style/st1.css" />
+<title >سي بلس بلس ++C: انوع البيانات</title>
+</head>
+
+<body style="background-color: #e495e4;">
+
+<center>
+<table class=ClTable  >
+<tr>
+	<td><center><font color=blue><h1>تعلم سي بلس بلس</h1></font></center></td>
+</tr>
+<tr>
+	<td><center><img src="../../Image/C++.jpg" width=25% hieght=25%></center></td>
+</tr>
+<tr>
+	
+</tr>
+<tr>
+	<td>
+		<center>
+			<font color=black><h3>المستوى الاول الفصل الاول</h3></font>
+		</center>
+			
+	</td>
+</tr>
+<tr>
+	<td>
+		<center>
+			<font color=blue><h3>الدرس الثاني</h3></font>
+		</center>
+			
+	</td>
+</tr>
+<tr>
+	<td style="background-color:gray;">
+		<center>
+			<table>
+				<tr>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="التالي" onclick="document.location='Test3.html'">
+						</div >
+					</td>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="السابق" onclick="document.location='Test1.html'">
+						</div >
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="نشاط" onclick="document.location='examples2/reviewTest2/review.html';">
+						</div>
+					</td>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="اختبار" onclick="document.location='examples2/reviewTest2/exam.html';">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</center>
+	</td>
+</tr>
+<tr>
+	<td><center><font color="black"><h4>الاساسيات</h4></font></center></td>
+</tr>
+<tr>
+	<td><dd>
+		<li><font color=red>مفهوم الاساسيات</font></li>
+		<li><font color=red>كود الاساسيات</font></li>
+		<li><font color=red>تعريف مكتبة iostream</font></li>
+		<li><font color=red>تعريف اجراء std</font></li>
+		<li><font color=red>تعريف الداله main</font></li>
+		<li><font color=red>قوس بداية الداله</font></li>
+		<li><font color=red>امر الاخراج  <font dir=ltr>cout<< </font></font></li>
+		<li><font color=red>الامر return</font></li>
+		<li><font color=red>قوس نهاية الداله</font></li>
+		</dd>
+	</td>
+</tr>
+<tr>
+	<td>
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+		
+		<h3><li><font color=red>مفهوم الاساسيات</font></li></h3>
+		<dd>
+		هي الاوامر والاسطر التي تبدا كتبته كلما عزمت على تصميم مشروع جديد .
+		كما في بعض التطبيقات الحديثه يتم تحريره بشكل مباشر بدون كتبته مثل الكود بلوكس
+		وتبدا كتابة مشروعك من الداله الرئسيه مثال صوره من تطبيق كود بلوكس
+		<br><br>
+		<img src="../../Image/FMain.png" width=70% hieght=70%>
+		<h3><li><font color=red>كود الاساسيات</font></li></h3>
+		هو مجموعه من الاخطوات مكتوبه في سي بلس بلس
+		<input type= text class=ClText size=1 dir=ltr value="C++" readonly>
+		<br><br>
+		<b><font color=red >مثال1</font></b>
+		<br>
+<textarea class=ClTextExa rows="9" dir=ltr >
+#include<iostream>
+using namespace std;
+int main()
+{
+cout<<"Hello world!"<<endl;
+return 0;
+}
+</textarea>
+<br>
+<div class=btn-group style="float:right;">
+<input type=button class=button value="كود" onclick="document.location='examples2/Example1/Code.html';">
+</div >
+</dd>
+		<br>
+		<h3><li><font color=red>تعريف مكتبة iostream</font></li></h3>
+		<dd>
+		تعريف مكتبة المدخلات والمخرجات
+		لاجل امر الادخال
+		<input type= text class=ClText id=IdText7 size=3 dir=ltr value="cin>>" readonly>
+		وامر الاخراج
+		<input type= text class=ClText size=4 dir=ltr value="cout<<" readonly> .
+		الامر
+		<input type= text class=ClText  size=9 dir=ltr value="#include< >" readonly>
+		امر تعريف مكتبه .
+		القوسين
+		<input type= text class=ClText  size=1 dir=ltr value="< >" readonly>
+		نكتب بين القوسين اسم المكتبه .
+		<input type= text class=ClText size=6 dir=ltr value="iostream" readonly>
+		اسم مكتبة المدخلات و المخرجات
+		<br>
+		<br>
+		<b><font color=red >مثال2</font></b>
+		<br>
+		<input type= text class=ClTextExa dir=ltr value="#include<iostream>" >
+		<br>
+		<div class=btn-group style="float:right;">
+		<input type=button class=button value="كود" onclick="document.location='examples2/Example1/Code.html';">
+		</div >
+		<br>
+		<br>
+		مثال2 تعريف مكتبة الادخال و الاخراج
+		</dd>
+	</td>
+</tr>
+
+
+<tr>
+<td>
+		
+		
+		
+		<h3><li><font color=red>تعريف اجراء std</font></li></h3>
+		<dd>
+		تعريف اجراء
+		<q>اس تي دي</q>
+		<input type= text class=ClText size=1 dir=ltr value="std" readonly>
+		لاجل امر الاخراج
+		<input type= text class=ClText size=4 dir=ltr value="cout<<" readonly> .
+		الامر
+		<input type= text class=ClText id="IdText1" size=13 dir=ltr value="using namespace" readonly>
+		امر تعريف اجراء او كلاس .
+		<input type= text class=ClText size=1 dir=ltr value="std" readonly>
+		اسم الكلاس .
+		<br>
+		<br>
+		<b><font color=red >مثال3</font></b>
+		<br>
+		<input type= text class=ClTextExa dir=ltr value="using namespace std;" >
+		<br>
+		<div class=btn-group style="float:right;">
+			<input type=button class=button value="كود" onclick="document.location='examples2/Example1/Code.html';">
+		</div >
+		<br>
+		<br>
+		مثال3 تعريف اجراء
+		<q>اس تي دي</q>
+		<input type= text class=ClText size=1 dir=ltr value="std" readonly>
+		لاجل امر الاخراج
+		</dd>
+		<h3><li><font color=red>تعريف الداله main</font></li></h3>
+		<dd>
+		تعريف الداله الرئيسيه
+		<input type= text class=ClText size=3 dir=ltr value="main()" readonly>
+		<q>مين</q>
+		لاجل تبدا كتابت مشروعك .
+		الامر
+		<div class="tooltip" >
+			<input type=text class=ClText size=1 value="int" readonly>
+			<br>
+		   <span class="tooltiptext" >
+				   اختصار للكلمة 
+				   <br>
+				   integer 
+				   <br>
+				   تعني عدد صحيح
+		   </span>
+		</div>
+		امر تعريف عدد صحيح .  يعرف الداله بانها ترجع عدد صحيح . 
+		<input type= text class=ClText size=1 dir=ltr value=main readonly>
+		اسم الداله . 
+		<input type= text class=ClText size=1 dir=ltr value="( )" readonly>
+		اقواس تاتي مع اسم الداله بسب انه قد تحتوي الداله على متغيرات باراميتر
+		واذا كانت لاتحتوي تترك فارغه
+		<br>
+		<br>
+		<div class="tooltip" dir=rtl><font color=red>توضيح اكثر</font>
+			<span class="tooltiptext">
+				<img src="../../Image/FMain.png" >
+			</span>
+		</div>
+		<br>
+		<br>
+		<b><font color=red>مثال4</font><b>
+		<br>
+		<input type= text class=ClTextExa dir=ltr value="int main()" >
+		<br>
+		<div class=btn-group style="float:right;">
+		<input type=button class=button value="كود" onclick="document.location='examples2/Example1/Code.html';">
+		</div >
+		<br>
+		<br>
+		مثال4 تعريف الداله الرئيسيه ترجع عدد صحيح
+		</dd>
+		<!--zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz-->
+		<h3><li><font color=red>قوس بداية الداله</font></li></h3>
+		<dd>
+		لكل داله في لغة سي بلس بلس بدايه نهايه .
+		قوس البدايه هو
+		<input type= text class=ClText size=1 dir=ltr value="{" readonly>
+		</dd>
+		<!--zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz-->
+		<h3><li><font color=red>امر الاخراج  <font dir=ltr>cout<< </font></font></li></h3>
+		<dd>
+			امر الاخراج 
+			<div class="tooltip" >
+				<input type= text class=ClText size=1 dir=ltr value="cout" readonly>
+				<br>
+			   <span class="tooltiptext" >
+					   اختصار للجملمة 
+					   <br>
+					   C++ Outputs 
+					   <br>
+					   تعني مخرجات لغة سي بلس بلس
+			   </span>
+			</div>
+		تستخدم لاظهر او اطباعة المخرجات على الشاشه لمعرفة النتيجه بعد المعالجه .
+		<input type= text class=ClText size=1 dir=ltr value="<<" readonly>
+		فاصل يفصل بين المخرجات وامر الاخراج .
+		<input type=text class=ClText size=8 value="Hello world!" dir=ltr readonly>
+		رساله ترحيبيه مطلوب عرضها على الشاشه . 
+		<input type=text class=ClText size=1 value='" "' dir=ltr readonly>
+		علامات تنصيص زوجيه يحصر بينهما النص المطلوب عرضه على الشاشه . 
+		
+		<div class="tooltip" >
+			<input type=text class=ClText size=1 value="endl" dir=ltr readonly>
+			<br>
+		   <span class="tooltiptext" >
+				   اختصار للجملمة 
+				   <br>
+				   End Line
+				   <br>
+				   تعني نهاية السطر
+		   </span>
+		</div>
+		امر انهاء سطر الطباعه على شاشة التنفيذ . 
+		<br>
+		<br>
+		<b><font color=red >مثال5</font></b>
+		<br>
+		<input type= text class=ClTextExa size=30 dir=ltr  value='cout<<"Hello world!"<<endl;' >
+		<br>
+		<div class=btn-group style="float:right;">
+		<input type=button class=button value="كود" onclick="document.location='examples2/Example1/Code.html';">
+		</div >
+		<br>
+		<br>
+		من مثال5 استخدام امر الاخراج لاجل طباعة رساله ترحبيه للعالم
+		</dd>
+		<!--zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz-->
+		<h3><li><font color=red>الامر return</font></li></h3>
+		<dd>
+		امر يرجع قيمه الى الداله الرئيسيه .
+		القيمه المرجعه الى الداله الرئيسيه هي
+		<input type= text class=ClText size=1 dir=ltr value="0" readonly>
+		صفر عدد صحيح .
+		بسب تعريف الداله الرئيسيه ترجع عدد صحيح من الامر
+		<input type= text class=ClText size=1 dir=ltr value="int" readonly>
+		امر تعريف عدد صحيح . 
+		<br>
+		<br>
+		<b><font color=red >مثال6</font></b>
+		<br>
+		<input type= text class=ClTextExa dir=ltr value="return 0;" >
+		<br>
+		<div class=btn-group style="float:right;">
+		<input type=button class=button value="كود" onclick="document.location='examples2/Example1/Code.html';">
+		</div >
+		<br>
+		<br>
+		مثال6 امر ارجع قيمه الى الداله الرئيسيه
+		</dd>
+		<h3><li><font color=red>قوس نهاية الداله</font></li></h3>
+		<dd>
+		لكل داله في لغة سي بلس بلس بدايه نهايه .
+		قوس النهايه هو
+		<input type= text class=ClText size=1 dir=ltr value=} readonly>
+		</dd>
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+	</td>
+</tr>		
+
+<tr>
+	<td style="background-color:gray;">
+		<center>
+			<table>
+				<tr>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="التالي" onclick="document.location='Test3.html'">
+						</div >
+					</td>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="السابق" onclick="document.location='Test1.html'">
+						</div >
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="نشاط" onclick="document.location='examples2/reviewTest2/review.html';">
+						</div>
+					</td>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="اختبار" onclick="document.location='examples2/reviewTest2/exam.html';">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</center>
+	</td>
+</tr>
+
+</table>
+</center>
+</body>
+</html>

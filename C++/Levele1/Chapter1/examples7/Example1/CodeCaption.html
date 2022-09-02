@@ -1,0 +1,226 @@
+﻿<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../../../../Style/example.css" />
+	<title>درس7-مثال1-شرح الكود-سي بلس بلس</title>
+</head>
+<body style="background-color: #e495e4;">
+<center>
+		<table class=ClTable border=1 >
+		<tr>
+			<td style="background-color: gray">
+				<center><table><tr><td>
+				<div class=btn-group >
+				<input type="button" class=button value="الدرس" onclick="document.location='../../Test7.html'">
+				<input type="button" class=button value="السابق" onclick="document.location='Code.html'">
+				</div >
+				</td></tr></table></center>
+			</td>
+			<td style="background-color:gray">
+				الكود
+			</td>
+		</tr>
+		<tr>
+			<td dir="ltr"><center>
+<textarea class="textCode" rows="11" cols="42">1: #include<stdio.h>
+2: int main()
+3: {
+4:  int a=90;
+5:  float b=9.5;
+6:  char c='H';
+7:  char *d="a3b#s";
+8:  printf("a=%d b=%f c=%c d=%s",a,b,c,d);
+9:  return 0;
+10:}</textarea>
+			</center></td>
+			<td >
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td dir=rtl style="background-color:gray"><center>
+				شرح الكود 
+			</center></td>
+			<td style="background-color:gray">
+				شرح
+			</td>
+			
+		</tr>
+		<tr>
+			
+			<td dir=rtl>
+				تعريف مكتبة 
+				 الاجل امر الادخال 
+				 وامر الاخراج . 
+				 <input type=text class="ClText" size=3 value="stdio.h" readonly>
+				 اسم المكتبه . 
+				 <input type=text class="ClText" size=5 value="#include" dir="ltr" readonly> 
+				 امر تعريف مكتبه . 
+			</td>
+			<td dir=rtl><center>
+				سط1
+			</center></td>
+		</tr>
+		<tr>
+			
+			<td dir=rtl>
+				تعريف الداله الرئيسيه 
+				 ترجع عدد صحيح . 
+				 <input type=text class=ClText size=1 value="main" readonly>
+				 اسم الداله .
+				<input type=text class=ClText size=1 value="int" readonly>
+				امر تعريف عدد صحيح .
+			</td>
+			<td dir=rtl><center>
+				سط2
+			</center></td>
+		</tr>
+		<tr>
+			
+			<td dir=rtl>
+				قوس فتح الداله 
+				<input type=text class=ClText size=1 dir=ltr value="{" readonly>
+			</td>
+			<td dir=rtl><center>
+				سط3
+			</center></td>
+		</tr>
+		<tr>
+			<td dir=rtl>
+				تعريف متغير 
+				 عدد صحيح .
+				 <input type=text class=ClText size=1 value="a" readonly>
+				 اسم المتغير .
+				<input type=text class=ClText size=1 value="int" readonly>
+				امر تعريف عدد صحيح . 
+				<input type=text class=ClText size=1 value="90" readonly>
+				قيمة المتغير . 
+			</td>
+			<td dir=rtl><center>
+				سط4
+			</center></td>
+		</tr>
+		<tr>
+			<td dir=rtl>
+				تعريف متغير 
+				 عدد عشري .
+				 <input type=text class=ClText size=1 value="b" readonly>
+				 اسم المتغير .
+				<input type=text class=ClText size=1 value="float" readonly>
+				امر تعريف عدد عشري . 
+				<input type=text class=ClText size=1 value="9.5" readonly>
+				قيمة المتغير .
+			</td>
+			<td dir=rtl><center>
+				سط5
+			</center></td>
+		</tr>
+		<tr>
+			<td dir=rtl>
+				تعريف متغير 
+				 من نوع حرف .
+				 <input type=text class=ClText size=1 value="c" readonly>
+				 اسم المتغير .
+				<input type=text class=ClText size=1 value="char" readonly>
+				امر تعريف متغير من نوع حرف . 
+				<input type=text class=ClText size=1 value="H" readonly>
+				قيمة المتغير .
+			</td>
+			<td dir=rtl><center>
+				سط6
+			</center></td>
+		</tr>
+		<tr>
+			<td dir=rtl>
+				تعريف متغير 
+				 من نوع نص .
+				 <input type=text class=ClText size=1 value="d" readonly>
+				 اسم المتغير .
+				<input type=text class=ClText dir="ltr" size=2 value="char *" readonly>
+				امر تعريف متغير من نوع نص . 
+				<input type=text class=ClText size=3 value="a3b#s" readonly>
+				قيمة المتغير .
+			</td>
+			<td dir=rtl><center>
+				سط7
+			</center></td>
+		</tr>
+		<tr>
+			<td dir=rtl>
+				امر الاخراج
+				<input type=text class=ClText size=3 dir="ltr" value="printf()" readonly>
+				لاجل عرض القيمه المدخل الى المتغير . 
+				 بين علامات اتنصيص الزوجيه
+                <input type= text class=ClText size=1 dir=ltr value='""' readonly>
+                النص المراد تنسيقه خارج علامات التنصيص يوجد اسماء المتغيرات المراد طباعة قيامها . 
+                <input type= text class=ClText size=1 dir=ltr value="%" readonly>
+                مواقع طباعة قيام المتغيرات . 
+				<br>
+				ال
+                <input type= text class=ClText size=1 dir=ltr value="%d" readonly>
+                استبدل هذا الرمز بي عدد صحيح هي قيمة المتغير 
+                <input type= text class=ClText size=1 dir=ltr value="a" readonly> . 
+                ال
+                <input type= text class=ClText size=1 dir=ltr value="%f" readonly>
+                استبدل هذا الرمز بي عدد عشري هي قيمة المتغير 
+                <input type= text class=ClText size=1 dir=ltr value="b" readonly> .
+                ال
+                <input type= text class=ClText size=1 dir=ltr value="%c" readonly>
+                استبدل هذا الرمز بي حرف هي قيمة المتغير 
+                <input type= text class=ClText size=1 dir=ltr value="c" readonly> .
+                ال
+                <input type= text class=ClText size=1 dir=ltr value="%s" readonly>
+                استبدل هذا الرمز بي نص هي قيمة المتغير 
+                <input type= text class=ClText size=1 dir=ltr value="d" readonly> .
+			</td>
+			<td dir=rtl><center>
+				سط8
+			</center></td>
+		</tr>
+		<tr>
+			<td dir=rtl>
+				امر ارجع قيمه الى الداله
+				<input type=text class=ClText size=3 dir="ltr" value="main()" readonly>
+				 الداله الرئيسيه .
+				ال
+				<input type=text class=ClText size=2 value="return" readonly>
+				 امر ارجع قيمه الى الداله .
+				 ال
+				<input type=text class=ClText size=1 value="0" readonly>
+				القيمه الراجعه الى الداله الرئيسيه .
+				من نوع عدد صحيح . 
+				بسبب تعريف الداله الرئيسيه ترجع عدد صحيح من الامر 
+				<input type=text class=ClText size=1 value="int" readonly>
+				كما في سط3 من الكود . 
+			</td>
+			<td dir=rtl><center>
+				سط9
+			</center></td>
+		</tr>
+		<tr>
+			
+			<td dir=rtl>
+				قوس غلق داله 
+				<input type=text class=ClText size=1 dir=ltr value="}" readonly>
+			</td>
+			<td dir=rtl><center>
+				سط10
+			</center></td>
+		</tr>
+		<tr>
+			<td style="background-color: gray">
+				<center><table><tr><td>
+				<div class=btn-group >
+				<input type="button" class=button value="الدرس" onclick="document.location='../../Test7.html'">
+				<input type="button" class=button value="السابق" onclick="document.location='Code.html'">
+				</div >
+				</td></tr></table></center>
+			</td>
+			<td style="background-color:gray">
+				
+			</td>
+		</tr>
+		</table>
+</center>
+</body>
+</html>

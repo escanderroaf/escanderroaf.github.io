@@ -1,0 +1,1021 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../../../../Style/review.css" />
+        <script src="../../../../script/review.js"></script>
+        <title>درس5-نشاط-سي بلس بلس</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <center>
+        <table>
+            <tr>
+                <td>
+                    <div class=btn-group >
+                        <input type="button" class=button value="الاختبار" onclick="document.location='exam.html'">
+                        <input type="button" class=button value="السابق" onclick="document.location='../../Test5.html'">
+                    </div >
+                </td>
+            </tr>
+        </table>
+        <table class="ClTable">
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال الاول</legend>
+                            <div>
+                                    <input type="checkbox" id="q1" class="check" name="q1" >
+                                    <label for="q1" dir="rtl">امر يترك عدة مسافات</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A1" class="check" name="q1" value="A" onchange="q(1);">
+                                        <label for="A1">\n</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B1" class="check" name="q1" value="B" onchange="q(1);">
+                                        <label for="B1">/t</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C1" class="check" name="q1" value="C" onchange="q(1);">
+                                        <label for="C1">\t</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D1" class="check" name="q1" value="D" onchange="q(1);">
+                                        <label for="D1">/n</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(1);">
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q1" style="display:none" dir="rtl">
+                                    <tr><td><center>الاجابه الاختيار رقم [C]</center></td></tr>
+                                    <tr><td><center>امر يترك عدة مسافات او فراغ بين الكلمات</center></td></tr>
+                                    <tr><td><center>باك سلاش تي</center></td></tr>
+                                    <tr><td dir="ltr"><center>\t</center></td></tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال الثاني</legend>
+                            <div>
+                                    <input type="checkbox" id="q2" name="q2" class="check">
+                                    <label for="q2" dir="rtl">امر طباعة سطر جديد</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A2" name="q2" value="A" onchange="q(2);" class="check">
+                                        <label for="A2">\t</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B2" name="q2" value="B" onchange="q(2);" class="check">
+                                        <label for="B2">\n</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C2" name="q2" value="C" onchange="q(2);" class="check">
+                                        <label for="C2">/t</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D2" name="q2" value="D" onchange="q(2);" class="check">
+                                        <label for="D2">/n</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(2);">
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q2" style="display:none" >
+                                    <tr><td dir="rtl">الاختيار رقم [B]</td></tr>
+                                    <tr><td dir="rtl">امر يعمل على توقف سطر الطباعه الحالي والبدايه من سطر جديد </td></tr>
+                                    <tr><td><center>باك سلاش ان</center></td></tr>
+                                    <tr><td dir="ltr"><center>\n</center></td></tr>
+                                </table>
+                            </center>
+                            <pre id="textContentOutput-q2" dir="rtl" style="text-align:center" ></pre>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال الثالث</legend>
+                            <div>
+                                    <input type="checkbox" id="q3" name="q3" class="check">
+                                    <label for="q3" dir="rtl">امر انهاء سطر الطباعه</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A3" name="q3" value="A" onchange="q(3);" class="check">
+                                        <label for="A3">endl</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B3" name="q3" value="B" onchange="q(3);" class="check">
+                                        <label for="B3">\n</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C3" name="q3" value="C" onchange="q(3);" class="check">
+                                        <label for="C3">\t</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D3" name="q3" value="D" onchange="q(3);" class="check">
+                                        <label for="D3">No thing</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(3);" >
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q3" style="display:none" >
+                                    <tr><td dir="rtl">الاختيار رقم [A]</td></tr>
+                                    <tr><td dir="rtl">امر يعمل نفس عمل باك سلاش ان . يتوقف عن طباعة اسطر الاول و الانتقال الى السطر التالي . </td></tr>
+                                    <tr><td dir="ltr">endl</td></tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال الرابع</legend>
+                            <div>
+                                    <input type="checkbox" id="q4" name="q4" class="check">
+                                    <label for="q4" dir="rtl">
+                                        <font>ماهي مخرجات الامر</font><br>
+                                        <font dir="ltr">cout<< "Hello\tworld!"<< endl;</font>
+                                    </label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A4" name="q4" value="A" onchange="q(4);" class="check">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="1" cols="20">Hello    world!</textarea>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B4" name="q4" value="B" onchange="q(4);" class="check">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="20">Hello
+world!</textarea>
+                                        
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C4" name="q4" value="C" onchange="q(4);" class="check">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="1" cols="20">HelloHello\tworld!</textarea>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D4" name="q4" value="D" onchange="q(4);" class="check">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="1" cols="20" >Hello world!</textarea>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(4);">
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q4" style="display:none" dir="rtl">
+                                    <tr><td><center>الاجابه اختيار رقم [A]</center></td></tr>
+                                    <tr><td><center>الاختيار A تترك ست او اربع مسافات بين الكلمتيان</center></td></tr>
+                                    <tr><td><center dir="ltr">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="1" cols="20">Hello    world!</textarea>
+                                    </center></td></tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال الخامس</legend>
+                            <div>
+                                    <input type="checkbox" id="q5" name="q5" class="check">
+                                    <label for="q5" dir="rtl">
+                                        <font>ماهي مخرجات الامر</font><br>
+                                        <font dir="ltr">cout<< "Hello\nworld!"<< endl;</font>
+                                    </label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A5" name="q5" value="A" onchange="q(5);" class="check">
+                                        <label for="A5">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="1" cols="20">Hello    world!</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B5" name="q5" value="B" onchange="q(5);" class="check">
+                                        <label for="B5">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="1" cols="20">HelloHello\tworld!</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C5" name="q5" value="C" onchange="q(5);" class="check">
+                                        <label for="C5">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="1" cols="20" >Hello world!</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D5" name="q5" value="D" onchange="q(5);" class="check">
+                                        <label for="D5">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="20">Hello
+world!</textarea>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(5);">
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q5" style="display:none" dir="rtl">
+                                    <tr><td><center>الاجابه اختيار رقم [D]</center></td></tr>
+                                    <tr><td><center>الامر باك سلاش ان يعمل على توقف سطر الطباعه و الانتقال الى سطر جديد . </center></td></tr>
+                                    <tr><td dir="ltr"><center >
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="20">Hello
+world!</textarea>
+                                    </center></td></tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال السادس</legend>
+                            <div>
+                                    <input type="checkbox" id="q6" name="q6" class="check">
+                                    <label for="q5" dir="rtl">
+                                        <font>ماهي مخرجات الامر</font><br>
+                                        <font dir="ltr">cout<< "Hello"<< endl<<"world!";<< endl;</font>
+                                    </label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A6" name="q6" value="A" onchange="q(6);" class="check">
+                                        <label for="A6">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="1" cols="20">Hello    world!</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B6" name="q6" value="B" onchange="q(6);" class="check">
+                                        <label for="B6">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="1" cols="20">HelloHello\tworld!</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C6" name="q6" value="C" onchange="q(6);" class="check">
+                                        <label for="C6">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="1" cols="20" >Hello world!</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D6" name="q6" value="D" onchange="q(6);" class="check">
+                                        <label for="D6">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="20">Hello
+world!</textarea>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(6);">
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q6" style="display:none" dir="rtl">
+                                    <tr><td><center>الاجابه اختيار رقم [D]</center></td></tr>
+                                    <tr><td><center>الامر endl  انهاء سطر الطباعه والبداء من سطر جديد يعمل نفس عمل باك سلاش ان . </center></td></tr>
+                                    <tr><td><center >
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="20">Hello
+world!</textarea>
+                                    </center></td></tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr style="display:none;">
+                <td>
+                    <fieldset>
+                        <legend>السؤال السابع</legend>
+                            <div>
+                                    <input type="checkbox" id="q7" name="q7" class="check">
+                                    <label for="q7" dir="rtl">تعريف الداله الرئيسيه</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A7" name="q7" value="A" onchange="q(7);" class="check">
+                                        <label for="A7">#include<iostream></iostream></label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B7" name="q7" value="B" onchange="q(7);" class="check">
+                                        <label for="B7">using namespace std;</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C7" name="q7" value="C" onchange="q(7);" class="check">
+                                        <label for="C7">int main()</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D7" name="q1" value="D" onchange="q(7);" class="check">
+                                        <label for="D7">No things</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(7);" >
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q7" style="display:none" >
+                                    <tr><td dir="rtl"><center>الاختيار رقم [C]</center></td></tr>
+                                    <tr><td dir="rtl"><center>تعريف الداله الرئيسيه </center></td></tr>
+                                    <tr><td dir="ltr"><center>int main()</center></td></tr>
+                                    <tr><td dir="rtl"><center>هي الداله التي يبدا مترجم الغه منه قراءة كود مشروعك</center></td></tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr >
+                <td>
+                    <fieldset>
+                        <legend>السؤال السابع</legend>
+                            <div>
+                                    <input type="checkbox" id="q8" name="q8" class="check">
+                                    <label for="q8" dir="rtl">من السطر الواحد اختار الكتابه الصحيحه</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A8" name="q8" value="A" onchange="q(8);" class="check">
+                                        <label for="A8">cout<< "Hello Ali"<< "\n"<< "Hello Alaa";</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B8" name="q8" value="B" onchange="q(8);" class="check">
+                                        <label for="B8">cout<< "Hello Ali"<< \n<< "Hello Alaa";</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C8" name="q8" value="C" onchange="q(8);" class="check">
+                                        <label for="C8">cout<< "Hello Ali"<< '\n'<< "Hello Alaa";</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D8" name="q1" value="D" onchange="q(8);" class="check">
+                                        <label for="D8">No thing</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(8);">
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q8" style="display:none" dir="rtl">
+                                    <tr><td><center>الاجابه اختيار رقم [A]</center></td></tr>
+                                    <tr><td><center>الكتابه الصح هي </center></td></tr>
+                                    <tr><td dir="ltr"><center >cout<< "Hello Ali"<< "\n"<< "Hello Alaa";</center></td></tr>
+                                    <tr><td><center>التالي جدول توضيح الاخطاء</center></td></tr>
+                                    <tr>
+                                        <td>
+                                            <table style="font-size:30px;" border="1" dir="ltr" border="1" dir="ltr">
+                                                <tr>
+                                                    <td></td><td>الخطاء</td><td>الخطاء</td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>عدد الاخطاء</td><td>الاول</td><td>الثاني</td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td> </td><td>[B]</td><td>cout<< "Hello Ali"<< \n<< "Hello Alaa";</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td> <td>"</td> <td>"</td> <td>\n</td> <td>"\n"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td></td><td>[C]</td><td>cout<< "Hello Ali"<< '\n'<< "Hello Alaa";</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td> <td>'</td> <td>'</td> <td>'\n'</td> <td>"\n"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td></td><td>[D]</td><td>No thing  </td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td></td><td></td><td></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال الثامن</legend>
+                            <div>
+                                    <input type="checkbox" id="q9" name="q9" class="check">
+                                    <label for="q9" dir="rtl">من السطر اختار الكتابه الصحيحه</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A9" name="q9" value="A" onchange="q(9);" class="check">
+                                        <label for="A9">cout<< "Hello Ali"<< "/t"<< "Hello Alaa";</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B9" name="q9" value="B" onchange="q(9);" class="check">
+                                        <label for="B9">cout<< "Hello Ali"<< "\t"<< "Hello Alaa";</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C9" name="q9" value="C" onchange="q(9);" class="check">
+                                        <label for="C9">cout<< "Hello Ali"<< "\t<< "Hello Alaa";</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D9" name="q9" value="D" onchange="q(9);" class="check">
+                                        <label for="D9">cout<< "Hello Ali"<< \t<< "Hello Alaa";</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(9);">
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q9" style="display:none" dir="rtl">
+                                    <tr><td><center>الاجابه اختيار رقم [B]</center></td></tr>
+                                    <tr><td><center>الكتابه الصح هي </center></td></tr>
+                                    <tr><td dir="ltr"><center >cout<< "Hello Ali"<< "\t"<< "Hello Alaa";</center></td></tr>
+                                    <tr><td><center>التالي جدول توضيح الاخطاء</center></td></tr>
+                                    <tr>
+                                        <td>
+                                            <table style="font-size:30px;" border="1" dir="ltr">
+                                                <tr>
+                                                    <td></td><td>الخطاء</td><td>الخطاء</td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>عدد الاخطاء</td><td>الاول</td><td>الثاني</td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td> </td><td>[A]</td><td>cout<< "Hello Ali"<< "/t"<< "Hello Alaa";</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td> <td>/</td> <td></td> <td>"/t"</td> <td>"\t"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td></td><td>[C]</td><td>cout<< "Hello Ali"<< "\t<< "Hello Alaa";</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td> <td>"</td> <td></td> <td>"\t</td> <td>"\t"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td></td><td>[D]</td><td>cout<< "Hello Ali"<< \t<< "Hello Alaa"; </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td> <td>"</td> <td>"</td> <td>\t</td> <td>"\t"</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال التاسع</legend>
+                            <div>
+                                    <input type="checkbox" id="q10" name="q10" class="check">
+                                    <label for="q10" dir="rtl">من السطر اختار الكتابه الصحيحه</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A10" name="q10" value="A" onchange="q(10);" class="check">
+                                        <label for="A10">cout<< "Hello Ali"<< "endl"<< "Hello Alaa";</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B10" name="q10" value="B" onchange="q(10);" class="check">
+                                        <label for="B10">cout<< "Hello Ali"<< endl<< "Hello Alaa"</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C10" name="q10" value="C" onchange="q(10);" class="check">
+                                        <label for="C10">cout<< "Hello Ali"<< endl<< "Hello Alaa";</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D10" name="q10" value="D" onchange="q(10);" class="check">
+                                        <label for="D10">cout<< "Hello Ali"<< Endl<< "Hello Alaa";</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(10);">
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q10" style="display:none" dir="rtl">
+                                    <tr><td><center>الاجابه اختيار رقم [C]</center></td></tr>
+                                    <tr><td><center>الكتابه الصح هي </center></td></tr>
+                                    <tr><td dir="ltr"><center >cout<< "Hello Ali"<< endl<< "Hello Alaa";</center></td></tr>
+                                    <tr><td><center>التالي جدول توضيح الاخطاء</center></td></tr>
+                                    <tr>
+                                        <td>
+                                            <table style="font-size:30px;" border="1" dir="ltr">
+                                                <tr>
+                                                    <td></td><td>الخطاء</td><td>الخطاء</td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>عدد الاخطاء</td><td>الاول</td><td>الثاني</td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td> </td><td>[A]</td><td>cout<< "Hello Ali"<< "endl"<< "Hello Alaa";</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td> <td>"</td> <td>"</td> <td>"endl"</td> <td> endl</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td></td><td>[B]</td><td>cout<< "Hello Ali"<< endl<< "Hello Alaa"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td> <td>;</td> <td></td> <td>"Hello Alaa"</td> <td>"Hello Alaa";</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td></td><td>[D]</td><td>cout<< "Hello Ali"<< Endl<< "Hello Alaa";</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td> <td>E</td> <td></td> <td>Endl</td> <td>endl</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr style="display:none;">
+                <td>
+                    <fieldset>
+                        <legend>السؤال الحادي عشر</legend>
+                            <div>
+                                    <input type="checkbox" id="q11" name="q11" class="check">
+                                    <label for="q11" dir="rtl">من السطر اختار الكتابه الصحيحه</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A11" name="q11" value="A" onchange="q(11);" class="check">
+                                        <label for="A11">return 0</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B11" name="q11" value="B" onchange="q(11);" class="check">
+                                        <label for="B11">RETURN 0;</iostream></label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C11" name="q11" value="C" onchange="q(11);" class="check">
+                                        <label for="C11">raturn 0;</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D11" name="q11" value="D" onchange="q(11);" class="check">
+                                        <label for="D11">return 0;</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(11);">
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q11" style="display:none" dir="rtl">
+                                    <tr><td><center>الاجابه اختيار رقم [D]</center></td></tr>
+                                    <tr><td><center>الكتابه الصح هي </center></td></tr>
+                                    <tr><td dir="ltr"><center >return 0;</center></td></tr>
+                                    <tr><td><center>التالي جدول توضيح الاخطاء</center></td></tr>
+                                    <tr>
+                                        <td>
+                                            <table style="font-size:30px;" border="1" dir="ltr">
+                                                <tr>
+                                                    <td></td><td>الخطاء</td><td>الخطاء</td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>عدد الاخطاء</td><td>الاول</td><td>الثاني</td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td> </td><td>[A]</td><td>return 0</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td><td>;</td> <td></td> <td>0</td> <td>0;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td></td><td>[B]</td><td>RETURN 0;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td> <td></td> <td></td> <td>RETURN</td> <td>return</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td><td></td><td></td><td>[C]</td><td>raturn 0; </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td> <td>a</td> <td></td> <td>raturn</td> <td>return</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال العاشر</legend>
+                            <div>
+                                    <input type="checkbox" id="q12" name="q12" class="check">
+                                    <label for="q12" dir="rtl">حدد جميع الاسطر المكتوبه خطاء</label>
+                                    <ul type="A">
+                                    <li>
+                                        <input type="checkbox" id="A12" name="q12" value="A" onchange="q(12);" class="check">
+                                        <label for="A12">cout<< "Hello/tMohammed"<< endl;</label>
+                                    </li>
+                                     <li>
+                                        <input type="checkbox" id="B12" name="q12" value="A" onchange="q(12);" class="check">
+                                        <label for="B12">cout<< "Hello/nMohammed"<< endl;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="C12" name="q12" value="D" onchange="q(12);" class="check">
+                                        <label for="C12">cout<< "Hello\tMohammed"<< endl;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="D12" name="q12" value="D" onchange="q(12);" class="check">
+                                        <label for="D12">cout<< "Hello\tMohammed"<< end;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="E12" name="q12" value="D" onchange="q(12);" class="check">
+                                        <label for="E12">cout<< "Hello"<< \t<< "Mohammed"<< endl;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="F12" name="q12" value="B" onchange="q(12);" class="check">
+                                        <label for="F12">cout<< "Hello\nMohammed"<< endl;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="G12" name="q12" value="D" onchange="q(12);" class="check">
+                                        <label for="G12">cout<< "Hello"<< \n<< "Mohammed"<< endl;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="H12" name="q12" value="D" onchange="q(12);" class="check">
+                                        <label for="H12">cout<< "Hello"<< "\t"<< "Mohammed"<< endl;</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(12);">
+								</div>
+                            </legend>
+                            <table style="font-size:26px;display:none" id="idTableHidden-q12" border="1">
+                                <tr>
+                                    <td></td> <td dir="rtl">[A][B][D][E][G]</td> <td>الاختيارات الصحيحه هي</td> 
+                                </tr>
+                                <tr>
+                                    <td>الرقم</td><td>الكتابه الخطاء</td><td>الكتابه الصح</td>
+                                </tr>
+                                <tr>
+                                    <td>[A]</td> <td>cout<< "Hello/tMohammed"<< endl;</td> <td>cout<< "Hello\tMohammed"<< endl;</td>
+                                </tr>
+                                <tr>
+                                    <td>[B]</td> <td>cout<< "Hello/nMohammed"<< endl;</td> <td>cout<< "Hello\nMohammed"<< endl;</td>
+                                </tr>
+                                <tr>
+                                    <td>[D]</td> <td>cout<< "Hello\tMohammed"<< end;</td> <td>cout<< "Hello\tMohammed"<< endl;</td>
+                                </tr>
+                                <tr>
+                                    <td>[E]</td> <td>cout<<"Hello"<<\t<< "Mohammed"<< endl;</td> <td>cout<<"Hello"<<"\t"<<"Mohammed"<< endl;</td>
+                                </tr>
+                                <tr>
+                                    <td>[G]</td> <td>cout<<"Hello"<<\n<< "Mohammed"<< endl;</td> <td>cout<<"Hello"<<"\n"<<"Mohammed"<< endl;</td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال الحادي عشر</legend>
+                            <div>
+                                    <input type="checkbox" id="q13" name="q13" class="check">
+                                    <label for="q13" dir="rtl">حدد جميع الاسطر المكتوبه صح</label>
+                                    <ul type="A">
+                                    <li>
+                                        <input type="checkbox" id="A13" name="q13" value="A" onchange="q(13);" class="check">
+                                        <label for="A13">cout<< "Hello\tMohammed"<< endl;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="B13" name="q13" value="D" onchange="q(13);" class="check">
+                                        <label for="B13">cout<< "Hello\nMohammed"<< endl;</label>
+                                    </li>
+                                     <li>
+                                        <input type="checkbox" id="C13" name="q13" value="A" onchange="q(13);" class="check">
+                                        <label for="C13">cout<< "Hello/tMohammed"<< endl;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="D13" name="q13" value="D" onchange="q(13);" class="check">
+                                        <label for="D13">cout<< "Hello\tMohammed"<< endl;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="E13" name="q13" value="B" onchange="q(13);" class="check">
+                                        <label for="E13">cout<< "Hello"<< "\t"<< "Mohammed"<< endl;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="F13" name="q13" value="D" onchange="q(13);" class="check">
+                                        <label for="F13">cout<< "Hello/nMohammed"<< endl;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="G13" name="q13" value="D" onchange="q(13);" class="check">
+                                        <label for="G13">cout<< "Hello"<< "\n"<< "Mohammed"<< endl;</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="H13" name="q13" value="C" onchange="q(13);" class="check">
+                                        <label for="H13">cout<< "Hello\tMohammed"<< end;</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(13);">
+								</div>
+                            </legend>
+                            <center>
+                                <table style="font-size:30px;display:none" id="idTableHidden-q13" >
+                                    <tr>
+                                        <td>[A][B][D][E][G]</td><td>الاجابات الصحيحه اختيارات الارقام </td>
+                                    </tr>
+                                    <tr>
+                                        <td>[A]</td> <td>cout<< "Hello\tMohammed"<< endl;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[B]</td> <td>cout<< "Hello\nMohammed"<< endl;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[D]</td> <td>cout<< "Hello\tMohammed"<< endl;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[E]</td> <td>cout<< "Hello"<< "\t"<< "Mohammed"<< endl;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[G]</td> <td>cout<< "Hello"<< "\n"<< "Mohammed"<< endl;</td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال الثاني عشر</legend>
+                            <div>
+                                    <input type="checkbox" id="q14" name="q14" class="check">
+                                    <label for="q14" dir="rtl">ماهي مخرجات الكود</label>
+                                    <ol>
+                                        <li>: #include< iostream ></li>
+                                        <li>: using namespace std;</li>
+                                        <li>: int main()</li>
+                                        <li>: {</li>
+                                        <li>:   cout<< "Hello world!"<< endl;</li>
+                                        <li>:   cout<< "Hello Alaa\t";</li>
+                                        <li>:   cout<< "Hello Ali"<< "\n";</li>
+                                        <li>:   cout<< "Hello for you"<< endl;</li>
+                                        <li>:   return 0;</li>
+                                        <li>: }</li>
+                                    </ol>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A14" name="q14" value="A" onchange="q(14);" class="check">
+                                        <label for="A14">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="4" cols="25">Hello world!
+Hello Alaa      
+Hello Ali
+Hello for you</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B14" name="q14" value="B" onchange="q(14);" class="check">
+                                        <label for="B14">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="3" cols="25">Hello world!
+Hello Alaa      Hello Ali
+Hello for you</textarea>
+                                        </iostream></label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C14" name="q14" value="C" onchange="q(14);" class="check">
+                                        <label for="C14">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="3" cols="25">Hello world!
+Hello Alaa
+Hello for you</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D14" name="q14" value="D" onchange="q(14);" class="check">
+                                        <label for="D14">No thing</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(14);">
+								</div>
+                            </legend>
+                            <center id="idCenterHidden14" style="display:none">
+                                <table class="ClTable"  >
+                                    <tr><td dir="rtl"><center>الاختيار رقم [B]</center></td></tr>
+                                    <tr><td dir="ltr"><center>
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="3" cols="25">Hello world!
+Hello Alaa      Hello Ali
+Hello for you</textarea>
+                                    </center></td></tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال الثالث عشر</legend>
+                            <div>
+                                    
+                                    <fieldset>
+                                        <legend>Code 1</legend>
+                                        <div>
+<pre>
+#include< iostream >
+using namespace std;
+int main()
+{
+    cout<< "Hello world!"<< endl;
+    cout<< "Hello Alaa/t";
+    cout<< "Hello Ali"<< "/n";
+    cout<< "Hello for you"<< endl;
+  return 0;
+}
+</pre>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Code 2</legend>
+                                        <div>
+<pre>
+#include< iostream >
+using namespace std;
+int main();
+{
+    cout<< "Hello world!"<< endl;
+    cout<< "Hello Alaa\t";
+    cout<< "Hello Ali"<< "\n";
+    cout<< "Hello for you"<< endl;
+    return 0;
+}
+</pre>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Code 3</legend>
+                                        <div>
+<pre>
+#include< iostream >
+using namespace std;
+int main()
+{
+    cout<< "Hello world!"<< endl;
+    cout<< "Hello Alaa\t";
+    cout<< "Hello Ali"<< "\n";
+    cout<< "Hello for you"<< endl;
+    return 0;
+}
+</pre>
+                                        </div>
+                                    </fieldset>
+                                    <input type="checkbox" id="q15" name="q15" class="check">
+                                    <label for="q15" dir="rtl">حدد الكود الصح</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A15" name="q15" value="A" onchange="q(15);" class="check">
+                                        <label for="A15">Code 1</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B15" name="q15" value="B" onchange="q(15);" class="check">
+                                        <label for="B15">Code 2</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C15" name="q15" value="C" onchange="q(15);" class="check">
+                                        <label for="C15">Code 3</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D15" name="q15" value="D" onchange="q(15);" class="check">
+                                        <label for="D15">No things</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </legend>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(15);">
+								</div>
+                            </legend>
+                            <center>
+                                <table class="ClTable" id="idTableHidden-q15" style="display:none" >
+                                    <tr><td dir="rtl"><center>الاختيار رقم [C]</center></td></tr>
+                                    <tr><td dir="ltr">
+<pre>
+#include< iostream >
+using namespace std;
+int main()
+{
+    cout<< "Hello world!"<< endl;
+    cout<< "Hello Alaa\t";
+    cout<< "Hello Ali"<< "\n";
+    cout<< "Hello for you"<< endl;
+    return 0;
+}
+</pre>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            </table>
+            </center>
+        </td>
+    </tr>
+</table>
+        <table>
+            <tr>
+                <td>
+                    <div class=btn-group >
+                        <input type="button" class=button value="الاختبار" onclick="document.location='exam.html'">
+                        <input type="button" class=button value="السابق" onclick="document.location='../../Test5.html'">
+                    </div >
+                </td>
+            </tr>
+        </table>
+        </center>
+    </body>
+</html>
