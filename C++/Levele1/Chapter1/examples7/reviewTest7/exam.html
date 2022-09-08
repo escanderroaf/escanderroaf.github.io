@@ -2,7 +2,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="../../../../Style/review.css" />
         <script src="../../../../script/review.js"></script>
-        <title>درس3-اختبار-سي بلس بلس</title>
+        <title>درس7-اختبار-سي بلس بلس</title>
         <meta charset="UTF-8">
     </head>
     <body>
@@ -12,8 +12,8 @@
                 <tr>
                     <td>
                         <div class=btn-group >
-                            <input type="button" class=button value="السابق" onclick="document.location='../../Test3.html';">
-                            <input type="button" class=button value="التالي" onclick="document.location='../../Test4.html';">
+                            <input type="button" class=button value="السابق" onclick="document.location='../../Test7.html';">
+                            <input type="button" class=button value="التالي" onclick="document.location='../../Test8.html';">
                         </div >
                     </td>
                 </tr>
@@ -55,8 +55,8 @@
             <tr>
                 <td>
                     <div class=btn-group >
-                        <input type="button" class=button value="السابق" onclick="document.location='../../Test3.html';">
-                        <input type="button" class=button value="التالي" onclick="document.location='../../Test4.html';">
+                        <input type="button" class=button value="السابق" onclick="document.location='../../Test7.html';">
+                        <input type="button" class=button value="التالي" onclick="document.location='../../Test8.html';">
                     </div >
                 </td>
             </tr>
@@ -84,8 +84,8 @@
                         <tr>
                             <td>
                                 <div class=btn-group >
-                                    <input type="button" class=button value="النتيجه" onclick="report(14);">
-                                    <input type="button" class=button value="السابق" onclick="document.location='../../Test3.html';">
+                                    <input type="button" class=button value="النتيجه" onclick="report(15);">
+                                    <input type="button" class=button value="السابق" onclick="document.location='../../Test7.html';">
                                 </div >
                             </td>
                         </tr>
@@ -93,31 +93,34 @@
                     </center>
                 </td>
             </tr>
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
             <tr>
                 <td>
                     <fieldset>
                         <legend>السؤال الاول</legend>
-                        <div>
-                            <label for="q1" dir="rtl">امر الادخال</label>
-                            <ul type="A">
-                             <li>
-                                <input type="radio" id="A1" name="q1" value="A" class="check">
-                                <label for="A1">int</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="B1" name="q1" value="B" class="check">
-                                <label for="B1">cout<<</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="C1" name="q1" value="C" class="check">
-                                <label for="C1">cin>></label>
-                            </li>
-                            <li>
-                                <input type="radio" id="D1" name="q1" value="D" class="check">
-                                <label for="D1">No thing</label>
-                            </li>
-                        </ul>
-                    </div>
+                            <div>
+                                    <label for="q1" dir="rtl">دالة امر الادخال</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A1" name="q1" value="A" onchange="q(1);" class="check">
+                                        <label for="A1">printf()</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B1" name="q1" value="B" onchange="q(1);" class="check">
+                                        <label for="B1">main()</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C1" name="q1" value="C" onchange="q(1);" class="check">
+                                        <label for="C1">scanf()</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D1" name="q1" value="D" onchange="q(1);" class="check">
+                                        <label for="D1">No thing</label>
+                                    </li>
+                                </ul>
+                            </div>
                     </fieldset>
                 </td>
             </tr>
@@ -125,27 +128,27 @@
                 <td>
                     <fieldset>
                         <legend>السؤال الثاني</legend>
-                        <div>
-                            <label for="q2" dir="rtl">امر الاخراج</label>
-                            <ul type="A">
-                             <li>
-                                <input type="radio" id="A2" name="q2" value="A" class="check">
-                                <label for="A2">cin>></label>
-                            </li>
-                            <li>
-                                <input type="radio" id="B2" name="q2" value="B" class="check">
-                                <label for="B2">cout<<</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="C2" name="q2" value="C" class="check">
-                                <label for="C2">int</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="D2" name="q2" value="D" class="check">
-                                <label for="D2">No thing</label>
-                            </li>
-                        </ul>
-                    </div>
+                            <div>
+                                    <label for="q2" dir="rtl">دالة امر الاخراج</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A2" name="q2" value="A" onchange="q(2);" class="check">
+                                        <label for="A2">main()</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B2" name="q2" value="B" onchange="q(2);" class="check">
+                                        <label for="B2">printf()</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C2" name="q2" value="C" onchange="q(2);" class="check">
+                                        <label for="C2">scanf()</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D2" name="q2" value="D" onchange="q(2);" class="check">
+                                        <label for="D2">No thing</label>
+                                    </li>
+                                </ul>
+                            </div>
                     </fieldset>
                 </td>
             </tr>
@@ -153,27 +156,27 @@
                 <td>
                     <fieldset>
                         <legend>السؤال الثالث</legend>
-                        <div>
-                            <label for="q3" dir="rtl">امر تعريف عدد صحيح</label>
-                            <ul type="A">
-                             <li>
-                                <input type="radio" id="A3" name="q3" value="A" class="check">
-                                <label for="A3">int</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="B3" name="q3" value="B" class="check">
-                                <label for="B3">cin>> </label>
-                            </li>
-                            <li>
-                                <input type="radio" id="C3" name="q3" value="C" class="check">
-                                <label for="C3">cout<<</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="D3" name="q3" value="D" class="check">
-                                <label for="D3">No thing</label>
-                            </li>
-                        </ul>
-                    </div>
+                            <div>
+                                    <label for="q3" dir="rtl">رمز تعريف عدد صحيح</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A3" name="q3" value="A" onchange="q(3);" class="check">
+                                        <label for="A3">%d</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B3" name="q3" value="B" onchange="q(3);" class="check">
+                                        <label for="B3">%s</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C3" name="q3" value="C" onchange="q(3);" class="check">
+                                        <label for="C3">%f</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D3" name="q3" value="D" onchange="q(3);" class="check">
+                                        <label for="D3">%c</label>
+                                    </li>
+                                </ul>
+                            </div>
                     </fieldset>
                 </td>
             </tr>
@@ -181,27 +184,27 @@
                 <td>
                     <fieldset>
                         <legend>السؤال الرابع</legend>
-                        <div>
-                            <label for="q4" dir="rtl">ناضع النص  في سي بلس بلس بين</label>
-                            <ul type="A">
-                             <li>
-                                <input type="radio" id="A4" name="q4" value="A" class="check">
-                                <label for="A4">" "</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="B4" name="q4" value="B" class="check">
-                                <label for="B4">' '</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="C4" name="q4" value="C" class="check">
-                                <label for="C4">A,B</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="D4" name="q4" value="D" class="check">
-                                <label for="D4">No thing</label>
-                            </li>
-                        </ul>
-                    </div>
+                            <div>
+                                    <label for="q4" dir="rtl">رمز تعريف عدد عشري</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A4" name="q4" value="A" onchange="q(4);" class="check">
+                                        <label for="A4">%f</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B4" name="q4" value="B" onchange="q(4);" class="check">
+                                        <label for="B4">%d</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C4" name="q4" value="C" onchange="q(4);" class="check">
+                                        <label for="C4">%c</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D4" name="q4" value="D" onchange="q(4);" class="check">
+                                        <label for="D4">%s</label>
+                                    </li>
+                                </ul>
+                            </div>
                     </fieldset>
                 </td>
             </tr>
@@ -209,29 +212,27 @@
                 <td>
                     <fieldset>
                         <legend>السؤال الخامس</legend>
-                        <div>
-                            <label for="q5" dir="rtl">من المتغيرات التاليه اذا كانت </label><br>
-                            <label for="q5" dir="rtl">n=2,m=9,s=n+m</label><br>
-                            <label for="q5" dir="rtl">حدد المدخلات </label>
-                            <ul type="A">
-                             <li>
-                                <input type="radio" id="A5" name="q5" value="A" class="check">
-                                <label for="A5">n</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="B5" name="q5" value="B" class="check">
-                                <label for="B5">m</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="C5" name="q5" value="C" class="check">
-                                <label for="C5">s</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="D5" name="q5" value="D" class="check">
-                                <label for="D5">A,B</label>
-                            </li>
-                        </ul>
-                    </div>
+                            <div>
+                                    <label for="q5" dir="rtl">رمز تعريف حرف</label><br>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A5" name="q5" value="A" onchange="q(5);" class="check">
+                                        <label for="A5">%f</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B5" name="q5" value="B" onchange="q(5);" class="check">
+                                        <label for="B5">%s</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C5" name="q5" value="C" onchange="q(5);" class="check">
+                                        <label for="C5">%d</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D5" name="q5" value="D" onchange="q(5);" class="check">
+                                        <label for="D5">%c</label>
+                                    </li>
+                                </ul>
+                            </div>
                     </fieldset>
                 </td>
             </tr>
@@ -239,29 +240,27 @@
                 <td>
                     <fieldset>
                         <legend>السؤال السادس</legend>
-                        <div>
-                            <label for="q6" dir="rtl">من السطر</label><br>
-                            <label for="q6" dir="ltr">int num;</label><br>
-                            <label for="q6" dir="rtl">اسم المتغير هو</label>
-                            <ul type="A">
-                             <li>
-                                <input type="radio" id="A6" name="q6" value="A" >
-                                <label for="A6">No thing</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="B6" name="q6" value="B" >
-                                <label for="B6">num;</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="C6" name="q6" value="C" >
-                                <label for="C6">int</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="D6" name="q6" value="D" >
-                                <label for="D6">num </label>
-                            </li>
-                        </ul>
-                    </div>
+                            <div>
+                                    <label for="q6" dir="rtl">رمز تعريف نص</label><br>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A6" name="q6" value="A" onchange="q(6);" class="check">
+                                        <label for="A6">%d</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B6" name="q6" value="B" onchange="q(6);" class="check">
+                                        <label for="B6">%d</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C6" name="q6" value="C" onchange="q(6);" class="check">
+                                        <label for="C6">%f</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D6" name="q6" value="D" onchange="q(6);" class="check">
+                                        <label for="D6">%s</label>
+                                    </li>
+                                </ul>
+                            </div>
                     </fieldset>
                 </td>
             </tr>
@@ -269,29 +268,27 @@
                 <td>
                     <fieldset>
                         <legend>السؤال السابع</legend>
-                        <div>
-                            <label for="q5" dir="rtl">من المتغيرات التاليه اذا كانت </label><br>
-                            <label for="q5" dir="rtl">n=2,m=9,s=n+m</label><br>
-                            <label for="q5" dir="rtl">حدد المخرجات </label>
-                            <ul type="A">
-                             <li>
-                                <input type="radio" id="A7" name="q7" value="A" class="check">
-                                <label for="A7">n</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="B7" name="q7" value="B" class="check">
-                                <label for="B7">m</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="C7" name="q7" value="C" class="check">
-                                <label for="C7">s</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="D7" name="q1" value="D" class="check">
-                                <label for="D7">A,B,C</label>
-                            </li>
-                        </ul>
-                    </div>
+                            <div>
+                                    <label for="q5" dir="rtl">رمز تعريف عدد صحيح</label><br>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A7" name="q7" value="A" onchange="q(7);" class="check">
+                                        <label for="A7">%c</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B7" name="q7" value="B" onchange="q(7);" class="check">
+                                        <label for="B7">%s</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C7" name="q7" value="C" onchange="q(7);" class="check">
+                                        <label for="C7">%i</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D7" name="q1" value="D" onchange="q(7);" class="check">
+                                        <label for="D7">%f</label>
+                                    </li>
+                                </ul>
+                            </div>
                     </fieldset>
                 </td>
             </tr>
@@ -299,27 +296,27 @@
                 <td>
                     <fieldset>
                         <legend>السؤال الثامن</legend>
-                        <div>
-                            <label for="q8" dir="rtl">من السطر اختار الكتابه الصحيحه</label>
-                            <ul type="A">
-                             <li>
-                                <input type="radio" id="A8" name="q8" value="A" class="check">
-                                <label for="A8">cin>>No;</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="B8" name="q8" value="B" class="check">
-                                <label for="B8">cin<< No;</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="C8" name="q8" value="C" class="check">
-                                <label for="C8">CIN>>No;</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="D8" name="q1" value="D" class="check">
-                                <label for="D8">cin>>No</label>
-                            </li>
-                        </ul>
-                    </div>
+                            <div>
+                                    <label for="q8" dir="rtl">من السطر اختار الكتابه الصحيحه</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A8" name="q8" value="A" onchange="q(8);" class="check">
+                                        <label for="A8">scanf("%d",&No);</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B8" name="q8" value="B" onchange="q(8);" class="check">
+                                        <label for="B8">scanf("%d",No);</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C8" name="q8" value="C" onchange="q(8);" class="check">
+                                        <label for="C8">scanf("d",&No);</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D8" name="q1" value="D" onchange="q(8);" class="check">
+                                        <label for="D8">scanf("%",&No);</label>
+                                    </li>
+                                </ul>
+                            </div>
                     </fieldset>
                 </td>
             </tr>
@@ -327,31 +324,31 @@
                 <td>
                     <fieldset>
                         <legend>السؤال التاسع</legend>
-                        <div>
-                            <label for="q9" dir="rtl">من السطر اختار الكتابه الصحيحه</label>
-                            <ul type="A">
-                                <li>
-                                    <input type="radio" id="A9" name="q9" value="A" class="check">
-                                    <label for="A9">cout<< No=<< No;</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id="B9" name="q9" value="B" class="check">
-                                    <label for="B9">cout<< "No="<< No;</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id="C9" name="q9" value="C" class="check">
-                                    <label for="C9">cot<< "No="< No</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id="D9" name="q9" value="D" class="check">
-                                    <label for="D9">cout>> "No="<< No;</label>
-                                </li>
-                            </ul>
-                        </div>
+                            <div>
+                                    <label for="q9" dir="rtl">من السطر اختار الكتابه الصحيحه</label>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A9" name="q9" value="A" onchange="q(9);" class="check">
+                                        <label for="A9">printf("No=%d",&No);</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B9" name="q9" value="B" onchange="q(9);" class="check">
+                                        <label for="B9">printf("No=%d",No);</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C9" name="q9" value="C" onchange="q(9);" class="check">
+                                        <label for="C9">print("No=%d",No);</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D9" name="q9" value="D" onchange="q(9);" class="check">
+                                        <label for="D9">printf("No=%",No);</label>
+                                    </li>
+                                </ul>
+                            </div>
                     </fieldset>
                 </td>
             </tr>
-            <tr>
+            <tr >
                 <td>
                     <fieldset>
                         <legend>السؤال العاشر</legend>
@@ -359,27 +356,27 @@
                                     <label for="q10" dir="rtl">من السطر اختار الكتابه الصحيحه</label>
                                     <ul type="A">
                                      <li>
-                                        <input type="radio" id="A10" name="q10" value="A" class="check">
-                                        <label for="A10">imt No;</label>
+                                        <input type="radio" id="A10" name="q10" value="A" onchange="q(10);" class="check">
+                                        <label for="A10">scanf("%i %s".&number,&name);</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="B10" name="q10" value="B" class="check">
-                                        <label for="B10">intt No</label>
+                                        <input type="radio" id="B10" name="q10" value="B" onchange="q(10);" class="check">
+                                        <label for="B10">scanf("%i %s",&number,&name)</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="C10" name="q10" value="C" class="check">
-                                        <label for="C10">int No;</label>
+                                        <input type="radio" id="C10" name="q10" value="C" onchange="q(10);" class="check">
+                                        <label for="C10">scanf("%i %s",&number,&name);</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="D10" name="q10" value="D" class="check">
-                                        <label for="D10">Int No;</label>
+                                        <input type="radio" id="D10" name="q10" value="D" onchange="q(10);" class="check">
+                                        <label for="D10">scanf("%i %s",&number,name);</label>
                                     </li>
                                 </ul>
                             </div>
-                        </fieldset>
+                    </fieldset>
                 </td>
             </tr>
-            <tr style="display:none">
+            <tr >
                 <td>
                     <fieldset>
                         <legend>السؤال الحادي عشر</legend>
@@ -387,68 +384,24 @@
                                     <label for="q11" dir="rtl">من السطر اختار الكتابه الصحيحه</label>
                                     <ul type="A">
                                      <li>
-                                        <input type="radio" id="A11" name="q11" value="A" class="check">
-                                        <label for="A11">return 0</label>
+                                        <input type="radio" id="A11" name="q11" value="A" onchange="q(11);" class="check">
+                                        <label for="A11">printf("%i %s",&number,&name);</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="B11" name="q11" value="B" class="check">
-                                        <label for="B11">RETURN 0;</iostream></label>
+                                        <input type="radio" id="B11" name="q11" value="B" onchange="q(11);" class="check">
+                                        <label for="B11">print("%i %s",number,name);</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="C11" name="q11" value="C" class="check">
-                                        <label for="C11">raturn 0;</label>
+                                        <input type="radio" id="C11" name="q11" value="C" onchange="q(11);" class="check">
+                                        <label for="C11">printf("number= name=",number,name);</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="D11" name="q11" value="D" class="check">
-                                        <label for="D11">return 0;</label>
+                                        <input type="radio" id="D11" name="q11" value="D" onchange="q(11);" class="check">
+                                        <label for="D11">printf("%i %s",number,name);</label>
                                     </li>
                                 </ul>
                             </div>
-                        </fieldset>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <fieldset>
-                        <legend>السؤال الحادي عشر</legend>
-                            <div>
-                                    <label for="q12" dir="rtl">حدد جميع الاسطر المكتوبه خطاء</label>
-                                    <ul type="A">
-                                    <li>
-                                        <input type="checkbox" id="A12" name="q12" value="A" class="check">
-                                        <label for="A12">cin<< no;</label>
-                                    </li>
-                                     <li>
-                                        <input type="checkbox" id="B12" name="q12" value="A" class="check">
-                                        <label for="B12">cout>> "no=">> no;</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" id="C12" name="q12" value="D" class="check">
-                                        <label for="C12">int no;</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" id="D12" name="q12" value="D" class="check">
-                                        <label for="D12">imt no;</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" id="E12" name="q12" value="D" class="check">
-                                        <label for="E12">cout<< 'no='<< no;</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" id="F12" name="q12" value="B" class="check">
-                                        <label for="F12">cin>> no;</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" id="G12" name="q12" value="D" class="check">
-                                        <label for="G12">cout<< no="<< no;</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" id="H12" name="q12" value="D" class="check">
-                                        <label for="H12">int main()</label>
-                                    </li>
-                                </ul>
-                            </div>
-                        </fieldset>
+                    </fieldset>
                 </td>
             </tr>
             <tr>
@@ -456,43 +409,43 @@
                     <fieldset>
                         <legend>السؤال الثاني عشر</legend>
                             <div>
-                                    <label for="q13" dir="rtl">حدد جميع الاسطر المكتوبه صح</label>
+                                    <label for="q12" dir="rtl">حدد جميع الاسطر المكتوبه خطاء</label>
                                     <ul type="A">
                                     <li>
-                                        <input type="checkbox" id="A13" name="q13" value="A" class="check">
-                                        <label for="A13">int no;</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" id="B13" name="q13" value="D" class="check">
-                                        <label for="B13">cin>> no;</label>
+                                        <input type="checkbox" id="A12" name="q12" value="A" onchange="q(12);" class="check">
+                                        <label for="A12">scanf("%d"&no);</label>
                                     </li>
                                      <li>
-                                        <input type="checkbox" id="C13" name="q13" value="A" class="check">
-                                        <label for="C13">cout<< no=<< no;</label>
+                                        <input type="checkbox" id="B12" name="q12" value="A" onchange="q(12);" class="check">
+                                        <label for="B12">printf("no=%d",&no);</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" id="D13" name="q13" value="D" class="check">
-                                        <label for="D13">cout<< "no="<< no;</label>
+                                        <input type="checkbox" id="C12" name="q12" value="D" onchange="q(12);" class="check">
+                                        <label for="C12">printf("no %d",no);</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" id="E13" name="q13" value="B" class="check">
-                                        <label for="E13">cin>> no;</label>
+                                        <input type="checkbox" id="D12" name="q12" value="D" onchange="q(12);" class="check">
+                                        <label for="D12">scnf("%d",&no);</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" id="F13" name="q13" value="D" class="check">
-                                        <label for="F13">Int no;</label>
+                                        <input type="checkbox" id="E12" name="q12" value="D" onchange="q(12);" class="check">
+                                        <label for="E12">printf("no=%d",no)</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" id="G13" name="q13" value="D" class="check">
-                                        <label for="G13">cuot<< "no="<< no;</label>
+                                        <input type="checkbox" id="F12" name="q12" value="B" onchange="q(12);" class="check">
+                                        <label for="F12">scanf("%d",&no);</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" id="H13" name="q13" value="C" class="check">
-                                        <label for="H13">#include< oistraem></label>
+                                        <input type="checkbox" id="G12" name="q12" value="D" onchange="q(12);" class="check">
+                                        <label for="G12">printf('no=%d',no);</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="H12" name="q12" value="D" onchange="q(12);" class="check">
+                                        <label for="H12">printf("no=%d",no);</label>
                                     </li>
                                 </ul>
                             </div>
-                        </fieldset>
+                    </fieldset>
                 </td>
             </tr>
             <tr>
@@ -500,39 +453,42 @@
                     <fieldset>
                         <legend>السؤال الثالث عشر</legend>
                             <div>
-                                    <label for="q14" dir="rtl">من الكود كم مجموع عدد الاخطاء</label>
-                                    <ol>
-                                        <li>: #include< iostream ></li>
-                                        <li>: using namespace std;</li>
-                                        <li>: int main()</li>
-                                        <li>: {</li>
-                                        <li>:   intt id;</li>
-                                        <li>:   Cin>> id</li>
-                                        <li>:   cout< "id=<< d;</li>
-                                        <li>:   return 0;</li>
-                                        <li>: }</li>
-                                    </ol>
+                                    <label for="q13" dir="rtl">حدد جميع الاسطر المكتوبه صح</label>
                                     <ul type="A">
+                                    <li>
+                                        <input type="checkbox" id="A13" name="q13" value="A" onchange="q(13);" class="check">
+                                        <label for="A13">scanf("%d",&num);</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="B13" name="q13" value="D" onchange="q(13);" class="check">
+                                        <label for="B13">printf("num=%d",num);</label>
+                                    </li>
                                      <li>
-                                        <input type="radio" id="A14" name="q14" value="A" class="check">
-                                        <label for="A14">7</label>
+                                        <input type="checkbox" id="C13" name="q13" value="A" onchange="q(13);" class="check">
+                                        <label for="C13">scanf("%d",num);</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="B14" name="q14" value="B" class="check">
-                                        <label for="B14">6</label>
+                                        <input type="checkbox" id="D13" name="q13" value="D" onchange="q(13);" class="check">
+                                        <label for="D13">scanf("%d %s",&no,&name);</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="C14" name="q14" value="C" class="check">
-                                        <label for="C14">8</label>
+                                        <input type="checkbox" id="E13" name="q13" value="B" onchange="q(13);" class="check">
+                                        <label for="E13">printf("no=%d name=%s",no,name);</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="D14" name="q14" value="D" class="check">
-                                        <label for="D14">5</label>
+                                        <input type="checkbox" id="F13" name="q13" value="D" onchange="q(13);" class="check">
+                                        <label for="F13">printf("num=%d".num);</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="G13" name="q13" value="D" onchange="q(13);" class="check">
+                                        <label for="G13">printf("Hello worid!");</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="H13" name="q13" value="C" onchange="q(13);" class="check">
+                                        <label for="H13">printf(Hello worid!");</label>
                                     </li>
                                 </ul>
                             </div>
-                        </legend>
-                        
                     </fieldset>
                 </td>
             </tr>
@@ -541,18 +497,74 @@
                     <fieldset>
                         <legend>السؤال الرابع عشر</legend>
                             <div>
+                                    <label for="q14" dir="rtl">ماهي مخرجات الكود</label>
+                                    <ol>
+                                        <li>: #include< stdio.h ></li>
+                                        <li>: int main()</li>
+                                        <li>: {</li>
+                                        <li>:   int a=55;</li>
+                                        <li>:   float b=6.5;</li>
+                                        <li>:   char c='H';</li>
+                                        <li>:   char *d="aaaaa";</li>
+                                        <li>:   printf("a=%d\tb=%f\nc=%c\td=%s",a,b,c,d);</li>
+                                        <li>:   return 0;</li>
+                                        <li>: }</li>
+                                    </ol>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A14" name="q14" value="A" onchange="q(14);" class="check">
+                                        <label for="A14">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="25">
+a=55 b=6.5
+c=H d=aaaaa</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B14" name="q14" value="B" onchange="q(14);" class="check">
+                                        <label for="B14">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="25">
+a=55      b=6.5
+c=H      d=aaaaa</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C14" name="q14" value="C" onchange="q(14);" class="check">
+                                        <label for="C14">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="25">
+a=55 b=6.5 c=H d=aaaaa</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D14" name="q14" value="D" onchange="q(14);" class="check">
+                                        <label for="D14">No thing</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(14);">
+								</div>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال الخامس  عشر</legend>
+                            <div>
                                     <fieldset>
                                         <legend>Code 1</legend>   
                                         <div>
 <pre>
-#include< iostream >
-using namespace std;
-int main()
-{
-  int n=10;
-  cuot<< "n="<< n; 
-  return 0;
-}
+    #include< iostream >
+    int main()
+    {
+      int n;
+      scanf("%d",&n);
+      printf("n=%d",n); 
+      return 0;
+    }
 </pre>
                                         </div>
                                     </fieldset>
@@ -560,14 +572,14 @@ int main()
                                         <legend>Code 2</legend>
                                         <div>
 <pre>
-#include< iostream >
-using namespace std;
-int main()
-{
-  int n=10;
-  cout<< "n="<< m; 
-  return 0;
-}
+    #include< stdio.h >
+    int main()
+    {
+      int n;
+      scanf("%d",&n;
+      printf("n=%d",n); 
+      return 0;
+    }
 </pre>
                                         </div>
                                     </fieldset>
@@ -575,41 +587,43 @@ int main()
                                         <legend>Code 3</legend>
                                         <div>
 <pre>
-#include< iostream >
-using namespace std;
-int main()
-{
-  int n=10;
-  cout<< "n="<< n; 
-  return 0;
-}
+    #include< stdio.h >
+    int main()
+    {
+      int n;
+      scanf("%d",&n);
+      printf("n=%d",n); 
+      return 0;
+    }
 </pre>
                                         </div>
                                     </fieldset>
                                     <label for="q15" dir="rtl">حدد الكود الصح</label>
                                     <ul type="A">
                                      <li>
-                                        <input type="radio" id="A15" name="q15" value="A" class="check">
+                                        <input type="radio" id="A15" name="q15" value="A" onchange="q(15);" class="check">
                                         <label for="A15">Code 1</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="B15" name="q15" value="B" class="check">
+                                        <input type="radio" id="B15" name="q15" value="B" onchange="q(15);" class="check">
                                         <label for="B15">Code 2</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="C15" name="q15" value="C" class="check">
+                                        <input type="radio" id="C15" name="q15" value="C" onchange="q(15);" class="check">
                                         <label for="C15">Code 3</label>
                                     </li>
                                     <li>
-                                        <input type="radio" id="D15" name="q15" value="D" class="check">
-                                        <label for="D15">No thing</label>
+                                        <input type="radio" id="D15" name="q15" value="D" onchange="q(15);" class="check">
+                                        <label for="D15">No things</label>
                                     </li>
                                 </ul>
                             </div>
-                        </legend>
                     </fieldset>
                 </td>
             </tr>
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
             <tr>
                 <td>
                     <center>
@@ -617,8 +631,8 @@ int main()
                         <tr>
                             <td>
                                 <div class=btn-group >
-                                    <input type="button" class=button value="النتيجه" onclick="report(14);">
-                                    <input type="button" class=button value="السابق" onclick="document.location='../../Test3.html';">
+                                    <input type="button" class=button value="النتيجه" onclick="report(15);">
+                                    <input type="button" class=button value="السابق" onclick="document.location='../../Test7.html';">
                                 </div >
                             </td>
                         </tr>

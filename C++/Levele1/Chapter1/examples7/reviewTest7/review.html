@@ -12,7 +12,7 @@
                 <td>
                     <div class=btn-group >
                         <input type="button" class=button value="الاختبار" onclick="document.location='exam.html'">
-                        <input type="button" class=button value="السابق" onclick="document.location='../../Test3.html'">
+                        <input type="button" class=button value="السابق" onclick="document.location='../../Test7.html'">
                     </div>
                 </td>
             </tr>
@@ -354,19 +354,19 @@
                                     <ul type="A">
                                      <li>
                                         <input type="radio" id="A8" name="q8" value="A" onchange="q(8);" class="check">
-                                        <label for="A8">cin>>No;</label>
+                                        <label for="A8">scanf("%d",&No);</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="B8" name="q8" value="B" onchange="q(8);" class="check">
-                                        <label for="B8">cin<< No;</label>
+                                        <label for="B8">scanf("%d",No);</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="C8" name="q8" value="C" onchange="q(8);" class="check">
-                                        <label for="C8">CIN>>No;</label>
+                                        <label for="C8">scanf("d",&No);</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="D8" name="q1" value="D" onchange="q(8);" class="check">
-                                        <label for="D8">cin>>No</label>
+                                        <label for="D8">scanf("%",&No);</label>
                                     </li>
                                 </ul>
                             </div>
@@ -381,7 +381,7 @@
                                 <table class="ClTable" id="idTableHidden-q8" style="display:none" dir="rtl">
                                     <tr><td><center>الاجابه اختيار رقم [A]</center></td></tr>
                                     <tr><td><center>الكتابه الصح هي </center></td></tr>
-                                    <tr><td dir="ltr"><center >cin>>No;</center></td></tr>
+                                    <tr><td dir="ltr"><center >scanf("%d",&No);</center></td></tr>
                                     <tr><td><center>التالي جدول توضيح الاخطاء</center></td></tr>
                                     <tr>
                                         <td>
@@ -393,22 +393,22 @@
                                                     <td>عدد الاخطاء</td><td>الاول</td><td>الثاني</td><td>الثالث</td><td></td><td></td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td> </td><td></td><td>[B]</td><td>cin<< No;</td>
+                                                    <td></td><td></td><td> </td><td></td><td>[B]</td><td>scanf("%d",No);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>2</td><td> < </td><td> < </td><td></td><td></td><td> >> </td>
+                                                    <td>1</td> <td>&</td> <td></td> <td></td> <td>No</td> <td>&No</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td></td><td></td><td>[C]</td><td>CIN>>No;</td>
+                                                    <td></td><td></td><td></td><td></td><td>[C]</td><td>scanf("d",&No);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>3</td><td> C </td><td> I </td><td>N</td><td></td><td>cin</td>
+                                                    <td>1</td> <td>%</td> <td></td> <td></td> <td>"d"</td> <td>"%d"</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td></td><td></td><td>[D]</td><td>cin>>No</td>
+                                                    <td></td><td></td><td></td><td></td><td>[D]</td><td>scanf("%",&No);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>1</td><td> ; </td><td></td><td><td></td></td><td>No;</td>
+                                                    <td>1</td> <td>d</td> <td></td> <td></td> <td>"%"</td> <td>"%d"</td>
                                                 </tr>
                                             </table>
                                         </td>
@@ -429,19 +429,19 @@
                                     <ul type="A">
                                      <li>
                                         <input type="radio" id="A9" name="q9" value="A" onchange="q(9);" class="check">
-                                        <label for="A9">cout<< No=<< No;</label>
+                                        <label for="A9">printf("No=%d",&No);</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="B9" name="q9" value="B" onchange="q(9);" class="check">
-                                        <label for="B9">cout<< "No="<< No;</label>
+                                        <label for="B9">printf("No=%d",No);</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="C9" name="q9" value="C" onchange="q(9);" class="check">
-                                        <label for="C9">cot<< "No="< No</label>
+                                        <label for="C9">print("No=%d",No);</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="D9" name="q9" value="D" onchange="q(9);" class="check">
-                                        <label for="D9">cout>> "No="<< No;</label>
+                                        <label for="D9">printf("No=%",No);</label>
                                     </li>
                                 </ul>
                             </div>
@@ -456,7 +456,7 @@
                                 <table class="ClTable" id="idTableHidden-q9" style="display:none" dir="rtl">
                                     <tr><td><center>الاجابه اختيار رقم [B]</center></td></tr>
                                     <tr><td><center>الكتابه الصح هي </center></td></tr>
-                                    <tr><td dir="ltr"><center >cout<< "No="<< No;</center></td></tr>
+                                    <tr><td dir="ltr"><center >printf("No=%d",No);</center></td></tr>
                                     <tr><td><center>التالي جدول توضيح الاخطاء</center></td></tr>
                                     <tr>
                                         <td>
@@ -468,22 +468,22 @@
                                                     <td>عدد الاخطاء</td><td>الاول</td><td>الثاني</td><td>الثالث</td><td></td><td></td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td> </td><td></td><td>[A]</td><td>cout<< No=<< No;</td>
+                                                    <td></td><td></td><td> </td><td></td><td>[A]</td><td>printf("No=%d",&No);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>2</td><td> " </td><td> " </td><td></td><td></td><td> "No=" </td>
+                                                    <td>1</td> <td>&</td> <td></td> <td></td> <td>&No);</td> <td>No);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td></td><td></td><td>[C]</td><td>cot<< "No="< No</td>
+                                                    <td></td><td></td><td></td><td></td> <td>[C]</td> <td>print("No=%d",No);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>3</td><td> u </td><td> < </td><td> ; </td><td></td><td>[cout] [<< No] [No;] </td>
+                                                    <td>1</td> <td>f</td> <td></td> <td></td> <td>print</td> <td>printf</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td></td><td></td><td>[D]</td><td>cout>> "No="<< No;</td>
+                                                    <td></td><td></td><td></td><td></td> <td>[D]</td> <td>printf("No=%",No);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>2</td><td> > </td><td> > </td><td><td></td></td><td><< </td>
+                                                    <td>1</td> <td>d</td> <td></td> <td></td> <td>"No=%"</td> <td>"No=%d"</td>
                                                 </tr>
                                             </table>
                                         </td>
@@ -494,7 +494,7 @@
                     </fieldset>
                 </td>
             </tr>
-            <tr>
+            <tr >
                 <td>
                     <fieldset>
                         <legend>السؤال العاشر</legend>
@@ -504,19 +504,19 @@
                                     <ul type="A">
                                      <li>
                                         <input type="radio" id="A10" name="q10" value="A" onchange="q(10);" class="check">
-                                        <label for="A10">imt No;</label>
+                                        <label for="A10">scanf("%i %s".&number,&name);</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="B10" name="q10" value="B" onchange="q(10);" class="check">
-                                        <label for="B10">intt No</label>
+                                        <label for="B10">scanf("%i %s",&number,&name)</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="C10" name="q10" value="C" onchange="q(10);" class="check">
-                                        <label for="C10">int No;</label>
+                                        <label for="C10">scanf("%i %s",&number,&name);</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="D10" name="q10" value="D" onchange="q(10);" class="check">
-                                        <label for="D10">Int No;</label>
+                                        <label for="D10">scanf("%i %s",&number,name);</label>
                                     </li>
                                 </ul>
                             </div>
@@ -531,7 +531,7 @@
                                 <table class="ClTable" id="idTableHidden-q10" style="display:none" dir="rtl">
                                     <tr><td><center>الاجابه اختيار رقم [C]</center></td></tr>
                                     <tr><td><center>الكتابه الصح هي </center></td></tr>
-                                    <tr><td dir="ltr"><center >int No;</center></td></tr>
+                                    <tr><td dir="ltr"><center >scanf("%i %s",&number,&name);</center></td></tr>
                                     <tr><td><center>التالي جدول توضيح الاخطاء</center></td></tr>
                                     <tr>
                                         <td>
@@ -543,22 +543,22 @@
                                                     <td>عدد الاخطاء</td><td>الاول</td><td>الثاني</td><td></td><td></td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td> </td><td>[A]</td><td>imt No;</td>
+                                                    <td></td><td></td><td></td> <td>[A]</td> <td>scanf("%i %s".&number,&name);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>1</td><td> m </td><td>  </td><td></td><td>int</td>
+                                                    <td>1</td> <td>.</td> <td></td> <td>".&number</td> <td>",&number</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td></td><td>[B]</td><td>intt No</td>
+                                                    <td></td><td></td><td></td> <td>[B]</td> <td>scanf("%i %s",&number,&name)</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>2</td><td> t </td><td> ; </td><td></td><td>[int] [No;]</td>
+                                                    <td>1</td> <td>;</td> <td></td> <td>&name)</td> <td>&name);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td></td><td>[D]</td><td>Int No;</td>
+                                                    <td></td><td></td><td></td> <td>[D]</td> <td>scanf("%i %s",&number,name);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>1</td><td> I </td><td></td><td></td><td>int</td>
+                                                    <td>1</td> <td>&</td> <td></td> <td>name</td> <td>&name</td>
                                                 </tr>
                                             </table>
                                         </td>
@@ -569,7 +569,7 @@
                     </fieldset>
                 </td>
             </tr>
-            <tr style="display:none">
+            <tr >
                 <td>
                     <fieldset>
                         <legend>السؤال الحادي عشر</legend>
@@ -579,19 +579,19 @@
                                     <ul type="A">
                                      <li>
                                         <input type="radio" id="A11" name="q11" value="A" onchange="q(11);" class="check">
-                                        <label for="A11">return 0</label>
+                                        <label for="A11">printf("%i %s",&number,&name);</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="B11" name="q11" value="B" onchange="q(11);" class="check">
-                                        <label for="B11">RETURN 0;</iostream></label>
+                                        <label for="B11">print("%i %s",number,name);</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="C11" name="q11" value="C" onchange="q(11);" class="check">
-                                        <label for="C11">raturn 0;</label>
+                                        <label for="C11">printf("number= name=",number,name);</label>
                                     </li>
                                     <li>
                                         <input type="radio" id="D11" name="q11" value="D" onchange="q(11);" class="check">
-                                        <label for="D11">return 0;</label>
+                                        <label for="D11">printf("%i %s",number,name);</label>
                                     </li>
                                 </ul>
                             </div>
@@ -606,7 +606,7 @@
                                 <table class="ClTable" id="idTableHidden-q11" style="display:none" dir="rtl">
                                     <tr><td><center>الاجابه اختيار رقم [D]</center></td></tr>
                                     <tr><td><center>الكتابه الصح هي </center></td></tr>
-                                    <tr><td dir="ltr"><center >return 0;</center></td></tr>
+                                    <tr><td dir="ltr"><center >printf("%i %s",number,name);</center></td></tr>
                                     <tr><td><center>التالي جدول توضيح الاخطاء</center></td></tr>
                                     <tr>
                                         <td>
@@ -618,22 +618,22 @@
                                                     <td>عدد الاخطاء</td><td>الاول</td><td>الثاني</td><td></td><td></td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td> </td><td>[A]</td><td>return 0</td>
+                                                    <td></td><td></td><td> </td> <td>[A]</td> <td>printf("%i %s",&number,&name);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>1</td><td> ; </td><td> a </td><td></td><td>0;</td>
+                                                    <td>2</td> <td>&</td> <td>&</td> <td>&number,&name</td> <td>number,name</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td></td><td>[B]</td><td>RETURN 0;</td>
+                                                    <td></td><td></td><td></td> <td>[B]</td> <td>print("%i %s",number,name);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>6</td><td></td><td></td><td></td><td>RETURN</td>
+                                                    <td>1</td> <td>f</td> <td></td> <td>print</td> <td>printf</td>
                                                 </tr>
                                                 <tr>
-                                                    <td></td><td></td><td></td><td>[C]</td><td>raturn 0; </td>
+                                                    <td></td><td></td><td></td> <td>[C]</td> <td>printf("number= name=",number,name);</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>1</td><td> a </td><td></td><td></td><td>raturn</td>
+                                                    <td>4</td> <td>%d</td> <td>%s</td> <td>"number= name="</td> <td>"number=%d name=%s"</td>
                                                 </tr>
                                             </table>
                                         </td>
@@ -647,42 +647,42 @@
             <tr>
                 <td>
                     <fieldset>
-                        <legend>السؤال الحادي عشر</legend>
+                        <legend>السؤال الثاني عشر</legend>
                             <div>
                                     <input type="checkbox" id="q12" name="q12" class="check">
                                     <label for="q12" dir="rtl">حدد جميع الاسطر المكتوبه خطاء</label>
                                     <ul type="A">
                                     <li>
                                         <input type="checkbox" id="A12" name="q12" value="A" onchange="q(12);" class="check">
-                                        <label for="A12">cin<< no;</label>
+                                        <label for="A12">scanf("%d"&no);</label>
                                     </li>
                                      <li>
                                         <input type="checkbox" id="B12" name="q12" value="A" onchange="q(12);" class="check">
-                                        <label for="B12">cout>> "no=">> no;</label>
+                                        <label for="B12">printf("no=%d",&no);</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="C12" name="q12" value="D" onchange="q(12);" class="check">
-                                        <label for="C12">int no;</label>
+                                        <label for="C12">printf("no %d",no);</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="D12" name="q12" value="D" onchange="q(12);" class="check">
-                                        <label for="D12">imt no;</label>
+                                        <label for="D12">scnf("%d",&no);</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="E12" name="q12" value="D" onchange="q(12);" class="check">
-                                        <label for="E12">cout<< 'no='<< no;</label>
+                                        <label for="E12">printf("no=%d",no)</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="F12" name="q12" value="B" onchange="q(12);" class="check">
-                                        <label for="F12">cin>> no;</label>
+                                        <label for="F12">scanf("%d",&no);</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="G12" name="q12" value="D" onchange="q(12);" class="check">
-                                        <label for="G12">cout<< no="<< no;</label>
+                                        <label for="G12">printf('no=%d',no);</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="H12" name="q12" value="D" onchange="q(12);" class="check">
-                                        <label for="H12">int main()</label>
+                                        <label for="H12">printf("no=%d",no);</label>
                                     </li>
                                 </ul>
                             </div>
@@ -701,19 +701,19 @@
                                     <td>الرقم</td><td>الكتابه الخطاء</td><td>الكتابه الصح</td>
                                 </tr>
                                 <tr>
-                                    <td>[A]</td><td>cin<< no;</td><td>cin>> no;</td>
+                                    <td>[A]</td> <td>scanf("%d"&no);</td> <td>scanf("%d",&no);</td>
                                 </tr>
                                 <tr>
-                                    <td>[B]</td><td>cout>> "no=">> no;</td><td>cout<< "no="<< no;</td>
+                                    <td>[B]</td> <td>printf("no=%d",&no);</td> <td>printf("no=%d",no);</td>
                                 </tr>
                                 <tr>
-                                    <td>[D]</td><td>imt no;</td><td>int no;</td>
+                                    <td>[D]</td> <td>scnf("%d",&no);</td> <td>scanf("%d",&no);</td>
                                 </tr>
                                 <tr>
-                                    <td>[E]</td><td>cout<< 'no='<< no;</td><td>cout<< "no="<< no;</td>
+                                    <td>[E]</td> <td>printf("no=%d",no)</td> <td>printf("no=%d",no);</td>
                                 </tr>
                                 <tr>
-                                    <td>[G]</td><td>cout<< no="<< no;</td><td>cout<< "no="<< no;</td>
+                                    <td>[G]</td> <td>printf('no=%d',no);</td> <td>printf("no=%d",no);</td>
                                 </tr>
                             </table>
                         </fieldset>
@@ -723,42 +723,42 @@
             <tr>
                 <td>
                     <fieldset>
-                        <legend>السؤال الثاني عشر</legend>
+                        <legend>السؤال الثالث عشر</legend>
                             <div>
                                     <input type="checkbox" id="q13" name="q13" class="check">
                                     <label for="q13" dir="rtl">حدد جميع الاسطر المكتوبه صح</label>
                                     <ul type="A">
                                     <li>
                                         <input type="checkbox" id="A13" name="q13" value="A" onchange="q(13);" class="check">
-                                        <label for="A13">int no;</label>
+                                        <label for="A13">scanf("%d",&num);</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="B13" name="q13" value="D" onchange="q(13);" class="check">
-                                        <label for="B13">cin>> no;</label>
+                                        <label for="B13">printf("num=%d",num);</label>
                                     </li>
                                      <li>
                                         <input type="checkbox" id="C13" name="q13" value="A" onchange="q(13);" class="check">
-                                        <label for="C13">cout<< no=<< no;</label>
+                                        <label for="C13">scanf("%d",num);</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="D13" name="q13" value="D" onchange="q(13);" class="check">
-                                        <label for="D13">cout<< "no="<< no;</label>
+                                        <label for="D13">scanf("%d %s",&no,&name);</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="E13" name="q13" value="B" onchange="q(13);" class="check">
-                                        <label for="E13">cin>> no;</label>
+                                        <label for="E13">printf("no=%d name=%s",no,name);</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="F13" name="q13" value="D" onchange="q(13);" class="check">
-                                        <label for="F13">Int no;</label>
+                                        <label for="F13">printf("num=%d".num);</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="G13" name="q13" value="D" onchange="q(13);" class="check">
-                                        <label for="G13">cuot<< "no="<< no;</label>
+                                        <label for="G13">printf("Hello worid!");</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" id="H13" name="q13" value="C" onchange="q(13);" class="check">
-                                        <label for="H13">#include< oistraem></label>
+                                        <label for="H13">printf(Hello worid!");</label>
                                     </li>
                                 </ul>
                             </div>
@@ -775,96 +775,19 @@
                                         <td>[A][B][D][E][G]</td><td>الاجابات الصحيحه اختيارات الارقام </td>
                                     </tr>
                                     <tr>
-                                        <td>[A]</td><td>int no;</td>
+                                        <td>[A]</td> <td>scanf("%d",&num);</td>
                                     </tr>
                                     <tr>
-                                        <td>[B]</td><td>cin>> no;</td>
+                                        <td>[B]</td> <td>printf("num=%d",num);</td>
                                     </tr>
                                     <tr>
-                                        <td>[D]</td><td>cout<< "no="<< no;</td>
+                                        <td>[D]</td> <td>scanf("%d %s",&no,&name);</td>
                                     </tr>
                                     <tr>
-                                        <td>[E]</td><td>cin>> no;</td>
+                                        <td>[E]</td> <td>printf("no=%d name=%s",no,name);</td>
                                     </tr>
                                     <tr>
-                                        <td>[G]</td><td>cuot<< "no="<< no;</td>
-                                    </tr>
-                                </table>
-                            </center>
-                        </fieldset>
-                    </fieldset>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <fieldset>
-                        <legend>السؤال الثالث عشر</legend>
-                            <div>
-                                    <input type="checkbox" id="q14" name="q14" class="check">
-                                    <label for="q14" dir="rtl">من الكود كم مجموع عدد الاخطاء</label>
-                                    <ol>
-                                        <li>: #include< iostream ></li>
-                                        <li>: using namespace std;</li>
-                                        <li>: int main()</li>
-                                        <li>: {</li>
-                                        <li>:   intt id;</li>
-                                        <li>:   Cin>> id</li>
-                                        <li>:   cout< "id=<< d;</li>
-                                        <li>:   return 0;</li>
-                                        <li>: }</li>
-                                    </ol>
-                                    <ul type="A">
-                                     <li>
-                                        <input type="radio" id="A14" name="q14" value="A" onchange="q(14);" class="check">
-                                        <label for="A14">7</label>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="B14" name="q14" value="B" onchange="q(14);" class="check">
-                                        <label for="B14">6</label>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="C14" name="q14" value="C" onchange="q(14);" class="check">
-                                        <label for="C14">8</label>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="D14" name="q14" value="D" onchange="q(14);" class="check">
-                                        <label for="D14">5</label>
-                                    </li>
-                                </ul>
-                            </div>
-                        </legend>
-                        <fieldset >
-                            <legend>
-                                <div class=btn-group style="float:right">
-									<input type="button" class=button value="الاجابه" onclick="result(14);">
-								</div>
-                            </legend>
-                            <center id="idCenterHidden14" style="display:none">
-                                <center><font dir="rtl">الاجابه اختيار رقم [B]</font></center>
-                                <table class="ClTable" border="1">
-                                    <tr>
-                                        <td></td><td>الخطاء</td><td>الخطاء</td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>عدد الاخطاء</td><td>الاول</td><td>الثاني</td><td></td><td></td><td></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td></td><td></td><td></td><td>[5]</td><td>intt id;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>1</td><td> t </td><td></td><td></td><td></td><td>int</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td></td><td></td><td></td><td>[6]</td><td> Cin>> id </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td><td> C </td><td> ; </td><td></td><td></td><td> [cin>> ] [id;] </td>
-                                    </tr>
-                                    <tr>
-                                        <td></td><td></td><td></td><td></td><td>[7]</td><td> cout< "id=<< d; </li></td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td><td> < </td><td> " </td><td> i </td><td></td><td> [<< ] ["id="] [id;] </td>
+                                        <td>[G]</td> <td>printf("Hello worid!");</td>
                                     </tr>
                                 </table>
                             </center>
@@ -877,19 +800,94 @@
                     <fieldset>
                         <legend>السؤال الرابع عشر</legend>
                             <div>
+                                    <input type="checkbox" id="q14" name="q14" class="check">
+                                    <label for="q14" dir="rtl">ماهي مخرجات الكود</label>
+                                    <ol>
+                                        <li>: #include< stdio.h ></li>
+                                        <li>: int main()</li>
+                                        <li>: {</li>
+                                        <li>:   int a=55;</li>
+                                        <li>:   float b=6.5;</li>
+                                        <li>:   char c='H';</li>
+                                        <li>:   char *d="aaaaa";</li>
+                                        <li>:   printf("a=%d\tb=%f\nc=%c\td=%s",a,b,c,d);</li>
+                                        <li>:   return 0;</li>
+                                        <li>: }</li>
+                                    </ol>
+                                    <ul type="A">
+                                     <li>
+                                        <input type="radio" id="A14" name="q14" value="A" onchange="q(14);" class="check">
+                                        <label for="A14">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="25">
+a=55 b=6.5
+c=H d=aaaaa</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="B14" name="q14" value="B" onchange="q(14);" class="check">
+                                        <label for="B14">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="25">
+a=55      b=6.5
+c=H      d=aaaaa</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="C14" name="q14" value="C" onchange="q(14);" class="check">
+                                        <label for="C14">
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="25">
+a=55 b=6.5 c=H d=aaaaa</textarea>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="D14" name="q14" value="D" onchange="q(14);" class="check">
+                                        <label for="D14">No thing</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        <fieldset >
+                            <legend>
+                                <div class=btn-group style="float:right">
+									<input type="button" class=button value="الاجابه" onclick="result(14);">
+								</div>
+                            </legend>
+                            <center id="idCenterHidden14" style="display:none">
+                                <table class="ClTable"  >
+                                    <tr><td dir="rtl"><center>الاختيار اصح رقم [B]</center></td></tr>
+                                    <tr><td dir="ltr"><center>
+<textarea class="ClTextExa" style="background-color:black;color:aliceblue" rows="2" cols="25">
+a=55      b=6.5
+c=H      d=aaaaa</textarea>
+                                    </center></td></tr>
+                                    <tr><td dir="rtl"><center>الصف الاول طباعة قيمة المتغير a</center></td></tr>
+                                    <tr><td dir="rtl"><center>ثم طباعة ست مسافات من الامر</center></td></tr>
+                                    <tr><td dir="ltr"><center>\t</center></td></tr>
+                                    <tr><td dir="rtl"><center>ثم قيمة المتغير b</center></td></tr>
+                                    <tr><td dir="rtl"><center>الانتقال الى الصف الثاني من الامر </center></td></tr>
+                                    <tr><td dir="ltr"><center>\n</center></td></tr>
+                                    <tr><td dir="rtl"><center>طباعة قيمة c ثم ست مسافات ثم قيمة d</center></td></tr>
+                                </table>
+                            </center>
+                        </fieldset>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>السؤال الخامس  عشر</legend>
+                            <div>
                                     <fieldset>
                                         <legend>Code 1</legend>   
                                         <div>
 <pre>
-#include< iostream >
-using namespace std;
-int main()
-{
-  int n;
-  cin>>n;
-  cuot<< "n="<< n; 
-  return 0;
-}
+    #include< iostream >
+    int main()
+    {
+      int n;
+      scanf("%d",&n);
+      printf("n=%d",n); 
+      return 0;
+    }
 </pre>
                                         </div>
                                     </fieldset>
@@ -897,15 +895,14 @@ int main()
                                         <legend>Code 2</legend>
                                         <div>
 <pre>
-#include< iostream >
-using namespace std;
-int main()
-{
-  int n;
-  cin>>n;
-  cout<< "n="<< m; 
-  return 0;
-}
+    #include< stdio.h >
+    int main()
+    {
+      int n;
+      scanf("%d",&n;
+      printf("n=%d",n); 
+      return 0;
+    }
 </pre>
                                         </div>
                                     </fieldset>
@@ -913,15 +910,14 @@ int main()
                                         <legend>Code 3</legend>
                                         <div>
 <pre>
-#include< iostream >
-using namespace std;
-int main()
-{
-  int n;
-  cin>>n;
-  cout<< "n="<< n; 
-  return 0;
-}
+    #include< stdio.h >
+    int main()
+    {
+      int n;
+      scanf("%d",&n);
+      printf("n=%d",n); 
+      return 0;
+    }
 </pre>
                                         </div>
                                     </fieldset>
@@ -953,24 +949,35 @@ int main()
 									<input type="button" class=button value="الاجابه" onclick="result(15);">
 								</div>
                             </legend>
-                            <center>
-                                <table class="ClTable" id="idTableHidden-q15" style="display:none" dir="rtl">
-                                    <tr>
-                                        <td><center>الاجابه اختيار رقم [C]</center></td>
-                                    </tr>
-                                </table>
-                            </center>
-                        </fieldset>
+                                <center><table class="ClTable" id="idTableHidden-q15" style="display:none" dir="rtl">
+                                    <tr><td><center>الاجابه اختيار رقم [C]</center></td></tr>
+                                    <tr ><td dir="ltr" >
+<pre dir="ltr" >
+#include< stdio.h >
+int main()
+{
+int n;
+scanf("%d",&n);
+printf("n=%d",n); 
+return 0;
+}
+</pre>
+                                    </td></tr>
+                                </table></center>
+                            </fieldset>
                     </fieldset>
                 </td>
             </tr>
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
+            <!--9999999999999999999999999999999999999999999999999999999999999999999-->
         </table>
         <table>
             <tr>
                 <td>
                     <div class=btn-group >
                         <input type="button" class=button value="الاختبار" onclick="document.location='exam.html'">
-                        <input type="button" class=button value="السابق" onclick="document.location='../../Test3.html';">
+                        <input type="button" class=button value="السابق" onclick="document.location='../../Test7.html';">
                     </div >
                 </td>
             </tr>
