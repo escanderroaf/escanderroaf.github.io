@@ -1,9 +1,10 @@
 ﻿<html dir=rtl>
 <head>
 <link rel="stylesheet" type="text/css" href="../../Style/st1.css" />
+<script src="../../script/review.js"></script>
 <title >سي بلس بلس ++C:الخورزميات</title>
 </head>
-<body style="background-color: #e495e4;">
+<body style="background-color: #b7e7e7;">
 
 <center>
 <!--
@@ -11,7 +12,10 @@
 	<td></td>
 </tr>
 -->
-<table class=ClTable  >
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+<!--BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB-->
+<!--DDDDDDDDDDDDDDDDDDDDDDDDDDD Test1 DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD-->
+<table class=ClTable  id="Test1">
 <tr>
 	<td><center><font color=blue><h2>تعلم سي بلس بلس</h2></font></center></td>
 </tr>
@@ -66,9 +70,6 @@
 		<ul>
 		<li><font color=red>مفهوم الخورزميات</font></li>
 		<li><font color=red>مفهوم الخورزميات برمجيا</font></li>
-		<li><font color=red>طرق تمثيل الخوروميه</font></li>
-		<li><font color=red>المخطط الانسيابي</font></li>
-		<li><font color=red>الكود البرمجي</font></li>
 		</ul>
 	</td>
 </tr>
@@ -84,6 +85,32 @@
 		<h4><li><font color=red>مفهوم الخورزميات</font></li></h4>
 		<dd>
 		هي عباره عن فكره . مكونه من عدات خطوات من الاسطر لاجل حل مساله .
+		<br>
+		سؤال لماذا ؟ كثير من المبتداين يركز على هذا الاسم خورزميات . 
+		ماهو الا اسم فقط جاء تكريما 
+		للعالم الخوارزمي الذي كان سبب 
+		في بناء كمبيوتر بحجم غرفة منزل . 
+		من خلال تجميع مجلدات افكر هذا العالم .
+		ولهذا جاء هذا الاسم تكريما لهذا العالم . 
+		  <br>
+		  مثلا قانون الجاذبيه الارضيه للعالم نيوتن في الفيزياء تسمى 
+		  خوارزمية نيوتن 
+		  مثال اخر قانون حساب مساحة الدائره في رياضيات 
+		  <input type= text class=ClText size=9 id=IdText4 value="A=3.14*R^2" dir=ltr readonly>
+		  هذا يسمى خوارزميه في رياضيات . مثال اخر 
+		  <input type= text class=ClText size=1 id=IdText4 value="n++;" dir=ltr readonly>
+		  وهذا يسمى خوارزميه في لغة سي بلس بلس تعني
+		  <input type= text class=ClText size=4 id=IdText4 value="n=n+1;" dir=ltr readonly> 
+		  في الاخير هذا المصطلح يستخدم اي علم لكن الاكثر اهتمام به علم الحسبات . 
+		  اذا ارادت ان تحضر الداكتوره وجات في رساله او فكره لم ياتي به احد من قبلك تارشف وتكتب 
+		  باسم خوارزميه في العلم الحديث
+		  لاجل الاجيل التي تاتي من بعدك تتعلم هذه الفكره . 
+		  لكي لاتبدا من الصفر وتبدا من اين توقفت انت . 
+		  <center>الخلاصه</center>
+		  اذا لم تفهم الكلام السابق هذا لايعني ان تتوقف عن تعلم لغات البرمجه . 
+		  بل انتقل الى الدرس التالي وتعلم الى ان تستطيع 
+		  كتابة ابسط واسهل خوارزميه اعتمدا على نفسك حيانها سوف تفهم كل شي 
+		  لم تفهمه سابقا . لاتنسى ان الخوارزميه فكره فقط . 
 		</dd>
 		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 		<h4><li><font color=red>مفهوم الخورزميات برمجيا</font></li></h4>
@@ -121,96 +148,16 @@
 		</dl>
 		</dd>
 		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
-		<h5><li><font color=red>طرق تمثيل الخوروميه</font></li></h5>
 		<dd>
-		طرق تمثيل الخورزميه التي سوف نتعلمه:
-		
-		<ul>
-		<li>مخطط انسيابي</li>
-		<li>كود برمجي</li>
-		</ul>
-		</dd>
-		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
-		<h4><li><font color=red>المخطط الانسيابي</font></li></h4>
-		<dd>
-		<p>
-		مجموعه من الخطوات تتمثل باستخدم الاشكال
-		</p>
-		<table class=ClTable>
-		<tr>
-			<td >
-			بدايه و نهايه
-			</td>
-			<td>
-			<center><div class="tooltip" >
-			<img src="../../Image/Lev1-Cha1-Circle.png" width=50% hieght=50%>
-			<span class="tooltiptext" >
-				بيضاوي
-			</span>
-			</div></center>
-			</td>
-		</tr>
-		<tr>
-			<td>
-			مدخلات و مخرجات
-			</td>
-			<td>
-			<center><div class="tooltip" >
-			<img src="../../Image/Lev1-Cha1-Square1.png" width=50% hieght=50%>
-			<span class="tooltiptext" >
-				مربع شبه منحرف
-			</span>
-			</div></center>
-			
-			</td>
-		</tr>
-		<tr>
-			<td>
-			معالجه
-			</td>
-			<td>
-			<center><div class="tooltip" >
-			<img src="../../Image/Lev1-Cha1-Square2.png" width=50% hieght=50%>
-			<span class="tooltiptext" >
-				مربع
-			</span>
-			</div></center>
-			
-			</td>
-		</tr>
-		<tr>
-			<td>
-			السؤال و حلقة الدوران
-			</td>
-			<td>
-			<center><div class="tooltip" >
-			<img src="../../Image/Lev1-Cha1-Moain.png" width=50% hieght=50%>
-			<span class="tooltiptext" >
-				المعين
-			</span>
-			</div></center>
-			
-			</td>
-		</tr>
-		
-		</table>
-		
-		<div class="tooltip" >
-			<font color=green>صوره</font>
-			<span class="tooltiptext" >
-			<img src="../../Image/Lev1-Cha1-Fig.png" >
-			</span>
-			</div>
 		
 		
-		<h5><dd><font color=red >مثال2</font></dd></h5>
 		
-		خورزميه في المخطط الانسيابي نفرض انه
-		<input type= text class=ClText size=6 id=IdText4 value="n=3,m=2" dir=ltr readonly>
-		و
+		<h5><dd><font color=red >مثال</font></dd></h5>
+		
+		حلل الخوارزميه او الفكره 
 		<input type= text class=ClText size=4 id=IdText4 value="s=n+m" dir=ltr readonly>
-		اوجد قيمة
-		<input type= text class=ClText size=1 id=IdText4 value="s" dir=ltr readonly>
+		برمجيا . اذا كانت قيام كلا من 
+		<input type= text class=ClText size=6 id=IdText4 value="n=3,m=2" dir=ltr readonly> ؟ 
 		
 		<dl>
 		<font color=green>الحل</font>
@@ -239,41 +186,8 @@
 		<input type= text class=ClText size=1 id=IdText4 value="s=5" dir=ltr readonly>
 		</dd>
 		</dl>
-		التحليل من المخطط كتالي :
-		<br><br>
-		<table class=ClTable>
-		<tr>
-		<td><h4><dd><font color=green>المدخلات :</font></dd></h4></td>
-		<td></td>
-		</tr>
-		<tr>
-		<td>مربع شبه منحرف</td>
-		<td><img src="../../Image/Lev1-Cha1-Tes1-Img1.png" width=80% hieght=80%></td>
-		</tr>
-		<tr>
-		<td><h4><dd><font color=green>المعالجه :</font></dd></h4></td>
-		<td></td>
-		</tr>
-		<tr>
-		<td>مربع عادي</td>
-		<td><img src="../../Image/Lev1-Cha1-Tes1-Img2.png" width=80% hieght=80%></td>
-		</tr>
-		<tr>
-		<td><h4><dd><font color=green>المخرجات :</font></dd></h4></td>
-		<td></td>
-		</tr>
-		<tr>
-		<td>مربع شبه منحرف</td>
-		<td><img src="../../Image/Lev1-Cha1-Tes1-Img3.png" width=80% hieght=80%></td>
-		</tr>
-		</table>
-		<div class="tooltip" >
-		 <font color=green>الخوارزميه هنا</font>
-		<span class="tooltiptext" >
-		<img src="../../Image/Lev1-Cha1-Tes1-Img4.png" width=80% hieght=80%>
-		</span>
-		</div>
 		</dd>
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 		
 </tr>
@@ -288,12 +202,6 @@
 	<td>
 		
 		
-	</td>
-</tr>
-<tr>
-	<td>
-		<h3><li><font color=red>الكود البرمجي</font></li></h3>
-		مجموعه من الخطوات تتمثل باستخدم الدوال , الاوامر , الاجرات , المتغيرات والكلاسات في لغة برمحه
 	</td>
 </tr>
 <tr>
@@ -320,6 +228,11 @@
 
 
 </table>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+<!--BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB-->
+<!--DDDDDDDDDDDDDDDDDDDDDDDDDDDTest2DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD-->
+
+
 </center>
 
 </body>

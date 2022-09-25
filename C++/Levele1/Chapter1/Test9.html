@@ -1,0 +1,273 @@
+<html dir=rtl>
+<head>
+	<link rel="stylesheet" type="text/css" href="../../Style/st1.css" />
+	<title >سي بلس بلس ++C:حلول تمارين</title>
+</head>
+<body style="background-color: #e495e4;">
+
+<center>
+<!--
+<tr>
+	<td></td>
+</tr>
+-->
+<table class="ClTable">
+<tr>
+	<td><center><font color=blue><h1>تعلم سي بلس بلس</h1></font></center></td>
+</tr>
+<tr>
+	<td><center><img src="../../Image/C++.jpg" width=25% hieght=25%></center></td>
+</tr>
+<tr>
+</tr>
+<tr>
+	<td>
+		<center>
+			<font color=blue><h3>المستوى الاول الفصل الاول</h3></font>
+		</center>
+			
+	</td>
+</tr>
+<tr>
+	<td>
+		<center>
+			<font color=blue><h3>الدرس التاسع</h3></font>
+		</center>
+			
+	</td>
+</tr>
+<tr>
+	<td style="background-color:gray;">
+		<center>
+			<table>
+				<tr>
+					<td >
+						<div class=btn-group >
+							<!--<input type="button" class=button value="التالي" onclick="document.location='Test9.html'">-->
+						</div >
+					</td>
+					<td >
+						<div class=btn-group>
+							<input type="button" class=button value="السابق" onclick="document.location='Test8.html'">
+						</div >
+					</td>
+				</tr>
+				<!--<tr>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="نشاط" onclick="document.location='examples8/reviewTest8/review.html';">
+						</div>
+					</td>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="اختبار" onclick="document.location='examples8/reviewTest8/exam.html';">
+						</div>
+					</td>
+				</tr>-->
+			</table>
+		</center>
+	</td>
+</tr>
+<tr>
+	<td><center><font color=blue><h4>حلول تمارين</h4></font></center></td>
+</tr>
+<tr>
+	<td>
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+		
+		<h4><li><font color=red>السؤال الاول</font></li></h4>
+		<dd>
+            اكتب كود في سي بلس بلس 
+            يادخال حرف صغير مثلا 
+            <input type=text class=ClText size=1 value="a" dir=ltr readonly>
+            ياطباع حرف كبير كما يلي
+            <input type=text class=ClText size=1 value="A" dir=ltr readonly> ؟
+            <center>الحل</center>
+            <center>
+<textarea rows="11" cols="30" class="textCode" dir="ltr" >#include<iostream>
+using namespace std;
+int main(){
+    char c;
+    cout<<"Enter letter : ";
+    cin>>c;
+    int ascii=c;
+    c=ascii-32;
+    cout<<c;
+    return 0;
+}</textarea>
+            </center>
+            <center>المخرجات</center>
+            <center>
+<textarea rows="2" cols="30" class="textCode" dir="ltr">
+Enter letter : a 
+A </textarea>
+            </center> 
+		</dd>
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+		<h4><li><font color=red>السؤال الثاني</font></li></h4>
+		<dd>
+            اكتب كود في سي بلس بلس 
+            ياحساب مساحة الدائره
+			<input type=text class=ClText size=10 value="س=ط*نق^2" dir=ltr readonly>
+			وتاخذ الشكل
+			<input type=text class=ClText size=7 value="A=D*r^2" dir=ltr readonly>
+			علما ان 
+			<input type=text class=ClText size=1 value="س" dir=ltr readonly>
+			مساحة الدائره ويرمز لها
+			<input type=text class=ClText size=1 value="A" dir=ltr readonly>
+			و
+			<input type=text class=ClText size=1 value="ط" dir=ltr readonly>
+			يرمز لها 
+			<input type=text class=ClText size=4 value="D=3.14" dir=ltr readonly>
+			و 
+			<input type=text class=ClText size=1 value="نق" dir=ltr readonly>
+			يرمز لها 
+			<input type=text class=ClText size=1 value="r=7" dir=ltr readonly>
+            <center>الحل</center>
+            <center>
+<textarea rows="9" cols="30" class="textCode" dir="ltr" >#include<iostream>
+using namespace std;
+int main(){
+    float r=7,D=3.14;
+	double A;
+	A=D*pow(r,2);
+    cout<<"Solve= "<<A;
+	return 0;
+}</textarea>
+            </center>
+            <center>المخرجات</center>
+            <center>
+<textarea rows="2" cols="30" class="textCode" dir="ltr">
+Solve= 153.86</textarea>
+            </center> 
+		</dd>
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+		
+		<h4><li><font color=red>السؤال الثالث</font></li></h4>
+		<dd>
+            اكتب كود في سي بلس بلس 
+            يغير بين قيام متغيرين 
+			<input type=text class=ClText size=1 value="a,b" dir=ltr readonly>
+			علما ان 
+            <input type=text class=ClText size=3 value="a=100" dir=ltr readonly>
+            و
+            <input type=text class=ClText size=5 value="b=10000" dir=ltr readonly> 
+			باستخدام متغير ثالث 
+			<input type=text class=ClText size=1 value="c" dir=ltr readonly>
+			ويكون ناتج المخرجات 
+			<input type=text class=ClText size=5 value="a=10000" dir=ltr readonly>
+			و 
+			<input type=text class=ClText size=3 value="b=100" dir=ltr readonly>
+			؟
+            <center>الحل</center>
+            <center>
+<textarea rows="11" cols="42" class="textCode" dir="ltr" >#include<iostream>
+using namespace std;
+int main(){
+ int a=100,b=10000;
+ cout<<"orginalValues\na="<<a<<"\tb="<<b;
+ int c=a;
+ a=b;
+ b=c;
+ cout<<"\nchangeValues\na="<<a<<"\tb="<<b;
+ return 0;
+}</textarea>
+            </center>
+            <center>المخرجات</center>
+            <center>
+<textarea rows="4" cols="30" class="textCode" dir="ltr">
+orginalValues
+a=100      b=10000
+changeValues
+a=10000      b=100</textarea>
+            </center> 
+		</dd>
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+		<h4><li><font color=red>السؤال الرابع</font></li></h4>
+		<dd>
+            اكتب كود في سي بلس بلس 
+            يغير بين قيام 
+            <input type=text class=ClText size=3 value="a=100" dir=ltr readonly>
+            و
+            <input type=text class=ClText size=5 value="b=10000" dir=ltr readonly> 
+			بدون
+			استخدام متغير ثالث 
+			ويكون ناتج المخرجات 
+			<input type=text class=ClText size=5 value="a=10000" dir=ltr readonly>
+			و 
+			<input type=text class=ClText size=3 value="b=100" dir=ltr readonly>
+			؟
+            <center>الحل</center>
+            <center>
+<textarea rows="11" cols="42" class="textCode" dir="ltr" >#include<iostream>
+using namespace std;
+int main(){
+ int a=100,b=10000;
+ cout<<"orginalValues\na="<<a<<"\tb="<<b;
+ a=a+b;
+ b=a-b;
+ a=a-b;
+ cout<<"\nchangeValues\na="<<a<<"\tb="<<b;
+ return 0;
+}</textarea>
+            </center>
+            <center>المخرجات</center>
+            <center>
+<textarea rows="4" cols="30" class="textCode" dir="ltr">
+orginalValues
+a=100      b=10000
+changeValues
+a=10000      b=100</textarea>
+            </center> 
+		</dd>
+		<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+	</td>
+</tr>	
+<tr>
+	<td style="background-color:gray;">
+		<center>
+			<table>
+				<tr>
+					<td >
+						<div class=btn-group >
+							<!--<input type="button" class=button value="التالي" onclick="document.location='Test9.html'">-->
+						</div >
+					</td>
+					<td >
+						<div class=btn-group>
+							<input type="button" class=button value="السابق" onclick="document.location='Test8.html'">
+						</div >
+					</td>
+				</tr>
+				<!--<tr>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="نشاط" onclick="document.location='examples8/reviewTest8/review.html';">
+						</div>
+					</td>
+					<td>
+						<div class=btn-group>
+							<input type="button" class=button value="اختبار" onclick="document.location='examples8/reviewTest8/exam.html';">
+						</div>
+					</td>
+				</tr>-->
+			</table>
+		</center>
+	</td>
+</tr>
+<tr>
+	<td>
+		<center>
+			
+		</center>
+	</td>
+</tr>
+
+</table>
+</center>
+<script>
+//document.getElementById("IdText1").style.color= "blue";
+
+</script>
+</body>
+</html>

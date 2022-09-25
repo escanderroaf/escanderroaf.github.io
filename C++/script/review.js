@@ -312,3 +312,92 @@ function q(n)
                     //***************************************************
                 }
             }
+            //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+            //BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+            //DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            function hiddenTestNext(n){
+                if(n===2){
+                    const visibleTest=document.getElementById('Test2');
+                    const hiddenTest=document.getElementById('Test1');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===3){
+                    const visibleTest=document.getElementById('Test3');
+                    const hiddenTest=document.getElementById('Test1');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===4){
+                    const visibleTest=document.getElementById('Test4');
+                    const hiddenTest=document.getElementById('Test3');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===5){
+                    const visibleTest=document.getElementById('Test5');
+                    const hiddenTest=document.getElementById('Test4');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===6){
+                    const visibleTest=document.getElementById('Test6');
+                    const hiddenTest=document.getElementById('Test5');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===7){
+                    const visibleTest=document.getElementById('Test7');
+                    const hiddenTest=document.getElementById('Test6');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===8){
+                    const visibleTest=document.getElementById('Test8');
+                    const hiddenTest=document.getElementById('Test7');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===9){
+                    const visibleTest=document.getElementById('Test9');
+                    const hiddenTest=document.getElementById('Test8');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }
+            }
+            function hiddenTestPrev(n){
+                if(n===2){
+                    const visibleTest=document.getElementById('Test1');
+                    const hiddenTest=document.getElementById('Test2');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===3){
+                    const visibleTest=document.getElementById('Test1');
+                    const hiddenTest=document.getElementById('Test3');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===4){
+                    const visibleTest=document.getElementById('Test3');
+                    const hiddenTest=document.getElementById('Test4');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===5){
+                    const visibleTest=document.getElementById('Test4');
+                    const hiddenTest=document.getElementById('Test5');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===6){
+                    const visibleTest=document.getElementById('Test5');
+                    const hiddenTest=document.getElementById('Test6');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===7){
+                    const visibleTest=document.getElementById('Test6');
+                    const hiddenTest=document.getElementById('Test7');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===8){
+                    const visibleTest=document.getElementById('Test7');
+                    const hiddenTest=document.getElementById('Test8');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }else if(n===9){
+                    const visibleTest=document.getElementById('Test8');
+                    const hiddenTest=document.getElementById('Test9');
+                    visibleTest.style.display='contents';
+                    hiddenTest.style.display='none';
+                }
+            }

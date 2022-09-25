@@ -1,83 +1,493 @@
 <html dir="rtl">
 <head>
 	<link rel="stylesheet" type="text/css" href="../../../../Style/example.css" />
-	<title>درس6-مثال3-الكود-سي بلس بلس</title>
+	<script src="../../../../script/review.js"></script>
+	<title>درس6-مثال3-سي بلس بلس</title>
 </head>
-<body style="background-color: #e495e4;">
+<body style="background-color: #b7e7e7;">
 <center>
-<table class=ClTable  style="background-color:gray">
-<tr>
-	<td >
-	</td>
-	<td>
-	</td>
-	<td>
-	</td>	
-</tr>
-
-<tr>
-	<td >
-	</td>
-	<td dir="rtl" >
-		<table><tr><td>
-		<div class="tooltip" >
-			<div class=btn-group>
-				<input type="button" class=button value="شرح" onclick="document.location='CodeCaption.html'">
-			</div >
-				<br><br>
-				<span class="tooltiptext" style="color:red;">
-					شرح الكود
-				</span>
-		</div>
-		</td></tr></table>
-	</td>
-	<td>
-	</td>
-</tr>
-<tr>
-	<td width=10% hieght=10% style="background-color:gray">
-		<div class=btn-group>
-		<input type="button" class=button value="السابق" onclick="document.location='../../Test6.html'">
-		<input type="button" class=button value="نسخ" >
-		<input type="button" class=button value="لصق" >
-		<input type="button" class=button value="الدرس" onclick="document.location='../../Test6.html'">
-		</div >
-	</td>
-	<td dir="ltr">
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+<!--BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB Code BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB-->
+<!--DDDDDDDDDDDDDDDDDDDDDDDDDDDD Test1 DDDDDDDDDDDDDDDDDDDDDDDDDDD-->
+			<table class=ClTable  style="background-color:gray" id="Test1">
+				<tr>
+					<td >
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>	
+				</tr>
+				
+				<tr>
+					<td >
+					</td>
+					<td dir="rtl" >
+						<table><tr><td>
+						<div class="tooltip" >
+							<div class=btn-group>
+								<input type="button" class=button value="شرح" onclick="hiddenTestNext(2);">
+							</div >
+								<br><br>
+								<span class="tooltiptext" style="color:red;">
+									شرح الكود
+								</span>
+						</div>
+						</td></tr></table>
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td width=10% hieght=10% style="background-color:gray">
+						<div class=btn-group>
+						<input type="button" class=button value="السابق" onclick="document.location='../../Test6.html'">
+						<input type="button" class=button value="نسخ" >
+						<input type="button" class=button value="لصق" >
+						<input type="button" class=button value="الدرس" onclick="document.location='../../Test6.html'">
+						</div >
+					</td>
+					<td dir="ltr">
 <textarea class="textCode" rows="8" cols="40">#include<iostream> 
 using namespace std;
 int main()
 {
-   float f=0.5;
-   cout<<"f="<<f<<endl;
-   return 0;
+	float f=0.5;
+	cout<<"f="<<f<<endl;
+	return 0;
 }</textarea>
-	</td>
-	<td>
-	</td>
-</tr>
-<tr>
-	<td >
-	</td>
-	<td style="background-color:gray">
-		<div class=btn-group>
-			<input type="button" class=button value="تنفيذ" onclick="document.location='Run.html'">
-		</div >
-	</td>
-	<td style="color:gray">
-		aaaa
-	</td>
-</tr>
-<tr>
-	<td>
-		
-	</td>
-	<td>
-		
-	</td>
-			
-</tr>
-</table>
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td >
+					</td>
+					<td style="background-color:gray">
+						<div class=btn-group>
+							<input type="button" class=button value="تنفيذ" onclick="hiddenTestNext(3);">
+						</div >
+					</td>
+					<td style="color:gray">
+						aaaa
+					</td>
+				</tr>
+				<tr>
+					<td>
+						
+					</td>
+					<td>
+						
+					</td>
+							
+				</tr>
+				</table>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+<!--BBBBBBBBBBBBBBBBBBBBBBBBBBBB Code Caption BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB-->
+<!--DDDDDDDDDDDDDDDDDDDDDDDDDDDD Test2 DDDDDDDDDDDDDDDDDDDDDDDDDDD-->
+<div dir="ltr">
+				<table class=ClTable border=1 id="Test2" style="display:none;">
+					<tr>
+						<td style="background-color: gray">
+							<center><table><tr><td>
+							<div class=btn-group >
+							<input type="button" class=button value="الدرس" onclick="document.location='../../Test6.html'">
+							<input type="button" class=button value="السابق" onclick="hiddenTestPrev(2);">
+							</div >
+							</td></tr></table></center>
+						</td>
+						<td style="background-color:gray">
+							الكود
+						</td>
+					</tr>
+					<tr>
+						<td dir="ltr"><center>
+<textarea class="textCode" rows="8" cols="40">1:  #include<iostream> 
+2:  using namespace std;
+3:  int main()
+4:  {
+5:     float f=0.5;
+6:     cout<<"f="<<f<<endl;
+7:     return 0;
+8:  }</textarea>
+						</center></td>
+						<td >
+							
+						</td>
+					</tr>
+					
+					<tr>
+						<td dir=rtl style="background-color:gray"><center>
+							شرح الكود 
+						</center></td>
+						<td style="background-color:gray">
+							شرح
+						</td>
+						
+					</tr>
+					<tr>
+						
+						<td dir=rtl>
+							تعريف مكتبة المدخلات والمخرجات . الاجل امر الادخال والاخراج .
+							<input type=text class="ClText" size=5 value="iostream" readonly>
+							 اسم المكتبه . 
+							 <input type=text class="ClText" size=5 value="#include" dir="ltr" readonly> 
+							 امر تعريف مكتبه . 
+						</td>
+						<td dir=rtl><center>
+							سط1
+						</center></td>
+					</tr>
+					<tr>
+						
+						<td dir=rtl>
+							تعريف اجراء 
+							<input type=text class=ClText size=1 value="std" readonly>
+							 لاجل امر الاخراج . 
+							ال 
+							<input type=text class=ClText size=13 value="using namespace" readonly>
+							امر تعريف مكتبه . 
+						</td>
+						<td dir=rtl><center>
+							سط2:
+						</center></td>
+					</tr>
+					<tr>
+						
+						<td dir=rtl>
+							تعريف الداله الرئيسيه 
+							 ترجع عدد صحيح . 
+							 <input type=text class=ClText size=1 value="main" readonly>
+							 اسم الداله .
+							<input type=text class=ClText size=1 value="int" readonly>
+							امر تعريف عدد صحيح .
+						</td>
+						<td dir=rtl><center>
+							سط3
+						</center></td>
+					</tr>
+					<tr>
+						
+						<td dir=rtl>
+							قوس فتح الداله 
+							<input type=text class=ClText size=1 dir=ltr value="{" readonly>
+						</td>
+						<td dir=rtl><center>
+							سط4
+						</center></td>
+					</tr>
+					<tr>
+						
+						<td dir=rtl>
+							تعريف متغير 
+							 عدد عشري قصير  .
+							 <input type=text class=ClText size=1 value="f" readonly>
+							 اسم المتغير .
+							<input type=text class=ClText size=5 value="float" readonly>
+							امر تعريف عدد عشري قصير . 
+						</td>
+						<td dir=rtl><center>
+							سط5
+						</center></td>
+					</tr>
+					<tr>
+						<td dir=rtl>
+							امر الاخراج
+							<input type=text class=ClText size=4 dir="ltr" value="cout<<" readonly>
+							لاجل عرض القيمه المدخله للمتغير . 
+							ناتج الاخراج 
+							<input type=text class="textRun" size=3 value="f=0.5" readonly> . 
+							 ال 
+							<input type=text class=ClText size=1 dir="ltr" value="f=" readonly>
+							عباره عن نص يوجد بين علامات تنصيص زوجيه .
+							ال 
+							<input type=text class=ClText size=1 value="f" readonly>
+							اسم المتغير يكتب بدون علامات تنصيص زوجيه .
+						</td>
+						<td dir=rtl><center>
+							سط6
+						</center></td>
+					</tr>
+					<tr>
+						<td dir=rtl>
+							امر ارجع قيمه الى الداله
+							<input type=text class=ClText size=3 dir="ltr" value="main()" readonly>
+							 الداله الرئيسيه .
+							ال
+							<input type=text class=ClText size=2 value="return" readonly>
+							 امر ارجع قيمه الى الداله .
+							 ال
+							<input type=text class=ClText size=1 value="0" readonly>
+							القيمه الراجعه الى الداله الرئيسيه .
+							من نوع عدد صحيح . 
+							بسبب تعريف الداله الرئيسيه ترجع عدد صحيح من الامر 
+							<input type=text class=ClText size=1 value="int" readonly>
+							كما في سط3 من الكود . 
+						</td>
+						<td dir=rtl><center>
+							سط7
+						</center></td>
+					</tr>
+					<tr>
+						
+						<td dir=rtl>
+							قوس غلق داله 
+							<input type=text class=ClText size=1 dir=ltr value="}" readonly>
+						</td>
+						<td dir=rtl><center>
+							سط8
+						</center></td>
+					</tr>
+					<tr>
+						<td style="background-color: gray">
+							<center><table><tr><td>
+							<div class=btn-group >
+							<input type="button" class=button value="الدرس" onclick="document.location='../../Test6.html'">
+							<input type="button" class=button value="السابق" onclick="hiddenTestPrev(2);">
+							</div >
+							</td></tr></table></center>
+						</td>
+						<td style="background-color:gray">
+							
+						</td>
+					</tr>
+					</table>
+    </div>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+<!--BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB Run BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB-->
+<!--DDDDDDDDDDDDDDDDDDDDDDDDDDDD Test3 DDDDDDDDDDDDDDDDDDDDDDDDDDD-->
+			<table class=ClTable id="Test3" style="display:none;">
+				<tr>
+					<td>
+						
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:gray">
+						<center><table><tr><td>
+						<div class=btn-group >
+							<input type="button" class=button value="الدرس" onclick="document.location='../../Test6.html'">
+							<input type="button" class=button value="لصق" >
+							<input type="button" class=button value="نسخ" >
+							<input type="button" class=button value="السابق" onclick="hiddenTestPrev(3);">
+						</div >
+						</td></tr></table></center>
+					</td>
+				</tr>
+				<tr>
+					<td style="float:inline-end">
+						<table><tr><td >
+							<div class=btn-group>
+								<input type="button" class=button value="تنفيذ" onclick="hiddenTestNext(3);">
+							</div >
+						</td></tr></table>
+					</td>
+				</tr>
+				
+				<tr>
+					<td dir="ltr">
+<textarea class="textCode" rows="8" cols="46">#include<iostream>
+using namespace std;
+int main()
+{
+	float f=0.5;
+	cout<<"f="<<f<<endl;
+	return 0;
+}</textarea>
+							</td>
+				</tr>
+				
+				<tr>
+					<td dir=ltr style="background-color:black;color:white">
+				<textarea   cols="46" class=ClTextExa dir=ltr style="background-color:black;color:aliceblue" readonly>f=0.5</textarea>
+					</td>
+					
+				</tr>
+				<tr>
+					<td >
+						
+						<div class="tooltip" >
+							<div class=btn-group>
+							<input type="button" class=button value="شرح" onclick="hiddenTestNext(4);">
+								</div >
+							<span class="tooltiptext">
+								شرح التنفيذ
+							</span>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td style="background-color:gray">
+						<center><table><tr><td>
+						<div class=btn-group >
+							<input type="button" class=button value="الدرس" onclick="document.location='../../Test6.html'">
+							<input type="button" class=button value="لصق" >
+							<input type="button" class=button value="نسخ" >
+							<input type="button" class=button value="السابق" onclick="hiddenTestPrev(3);">
+						</div >
+						</td></tr></table></center>
+					</td>
+				</tr>
+				</table>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+<!--BBBBBBBBBBBBBBBBBBBBBBBBBBBBB Run Caption BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB-->
+<!--DDDDDDDDDDDDDDDDDDDDDDDDDDDD Test4 DDDDDDDDDDDDDDDDDDDDDDDDDDD-->
+<div dir="ltr">
+			<table class=ClTable   border=0 id="Test4" style="display:none;">
+				<tr>
+					<td>
+						<table class=ClTable border=1>
+						
+						<tr>
+							<td style="background-color:gray;">
+								<center><table><tr><td>
+								<div class=btn-group >
+								<input type="button" class=button value="الدرس" onclick="document.location='../../Test6.html'">
+								<input type="button" class=button value="السابق" onclick="hiddenTestPrev(4);">
+								</div >
+								</td></tr></table></center>
+							</td>
+							<td>
+								الكود
+							</td>
+						</tr>
+						
+						<tr>
+							<td dir="ltr"><center>
+<textarea class="textCode" rows="8" cols="41">1:  #include<iostream> 
+2:  using namespace std;
+3:  int main()
+4:  {
+5:     float f=0.5;
+6:     cout<<"f="<<f<<endl;
+7:     return 0;
+8:  }</textarea>
+							</center></td>
+							<td >
+								
+							</td>
+						</tr>
+						<tr>
+							<td dir=ltr ><center>
+				<textarea   cols="41" class=ClTextExa dir=ltr style="background-color:black;color:aliceblue" readonly>f=0.5</textarea>
+							</center></td>
+							<td dir=rtl><center>
+								الشاشه
+							</center></td>
+						</tr>
+						
+						<tr>
+							
+							<td dir=rtl><center>
+								شرح شاشة التنفيذ
+							</center></td>
+							<td dir=rtl>
+							</td>
+						</tr>
+					<tr >
+						<td dir=ltr style="background-color:gray;"><center>
+							cout<< "f="<< f<< endl;
+							</center></td>
+							<td dir=rtl>
+								سط6:
+							</center></td>
+						</tr>
+						<tr>
+							
+							<td dir=ltr><center>
+								cout<<
+								</center></td>
+							<td dir=rtl><center>
+								
+							</center></td>
+						</tr>
+						<tr>
+							
+							<td dir=rtl>
+								امر الاخراج لاجل عرض قيمة المتغير 
+								<input type=text class=ClText size=1 value="f" dir=ltr readonly> .
+							</td>
+							<td dir=rtl><center>
+								
+							</center></td>
+						</tr>
+						<tr>
+							<td dir="ltr" style="background-color:gray;"><center>
+								"f="
+							</center></td>
+							<td dir=rtl>
+								
+							</td>
+						</tr>
+						<tr>
+							<td dir="rtl">
+								النص الذي يظهر كما هو 
+								<input type=text class=ClText size=1 value="f=" dir=ltr readonly> .
+								تتعامل سي بلس بلس مع النص بوضع النص بين علامات تنصيص زوجيه 
+								<input type=text class=ClText size=1 value='" "' dir=ltr readonly> .
+							</td>
+							<td dir=rtl>
+								
+							</td>
+						</tr>
+						<tr>
+							<td style="background-color:gray;"><center>
+								 f
+								</center></td>
+							<td dir=rtl>
+								
+							</td>
+						<tr>
+							<td dir=rtl>
+								 اسم المتغير بدون علامات تنصيص .
+								 تتعامل سي بلس بلس مع المتغيرات بدون علامات تنصيص . 
+								 <input type=text class=ClText size=1 value="f" dir=ltr readonly> .
+								 لاجل طباعة قيمة المتغير هنا يكون ناتج الاخراج كتالي 
+								 <input type=text class=textRun size=3 value="f=0.5" dir=ltr readonly> .
+							</td>
+							<td dir=rtl>
+								
+							</td>
+						</tr>
+						<tr>
+							<td dir="ltr" style="background-color:gray;"><center>
+								endl
+							</center></td>
+							<td dir=rtl>
+								
+							</td>
+						</tr>
+						<tr>
+							
+							<td dir=rtl>
+								 امر ياعمل على انهاء سطر اطباعه . 
+							</td>
+							<td dir=rtl>
+								
+							</td>
+						</tr>
+						<tr>
+							<td style="background-color:gray;">
+								<center><table><tr><td>
+								<div class=btn-group >
+								<input type="button" class=button value="الدرس" onclick="document.location='../../Test6.html'">
+								<input type="button" class=button value="السابق" onclick="hiddenTestPrev(4);">
+								</div >
+								</td></tr></table></center>
+							</td>
+							<td>
+								
+							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+</div>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-->
+<!--BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB-->
+<!--DDDDDDDDDDDDDDDDDDDDDDDDDDDD Test4 DDDDDDDDDDDDDDDDDDDDDDDDDDD-->
 </center>
 </body>
 </html>
